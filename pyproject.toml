@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "img2vid"
+version = "0.1.0"
+description = "Animate one or more images into a video"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26",
+  "pillow>=10.0",
+  "opencv-python-headless>=4.9,<5",  # 5.x drops Haar cascades
+]
+
+[project.optional-dependencies]
+ai = ["anthropic>=2.8"]
+# 3D depth motion, people detection and local AI video (LTX-Video)
+motion = [
+  "torch>=2.5",
+  "diffusers>=0.43",
+  "transformers>=4.50",
+  "accelerate>=1.0",
+  "sentencepiece>=0.2",
+  "protobuf>=4.25",
+  "huggingface_hub>=0.30",
+  "safetensors>=0.4",
+]
+
+[project.scripts]
+img2vid = "img2vid.cli:main"
+
+[tool.setuptools]
+packages = ["img2vid"]

@@ -1,0 +1,32 @@
+.venv/
+__pycache__/
+*.egg-info/
+*.mp4
+.DS_Store
+.DS_Store
+
+# media: images, audio, video (keep the repo code-only)
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.heic
+*.bmp
+*.tif
+*.tiff
+*.mp3
+*.wav
+*.m4a
+*.aac
+*.mp4
+*.mov
+*.m4v
+*.webm
+*.mkv
+
+# generated clips, latents, logs, scratch tests
+*.npz
+*.pt
+*.log
+projects/*/test/

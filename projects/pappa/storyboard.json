@@ -1,0 +1,389 @@
+{
+  "version": 1,
+  "aspect": "16:9",
+  "fps": 30,
+  "music": "/Users/mrityunjaykum.ranjan/Downloads/\u092a\u092a\u094d\u092a\u093e \u091c\u0932\u094d\u0926\u0940 \u0906 \u091c\u093e\u0928\u093e.mp3",
+  "transition_duration": 1.4,
+  "fade_in": 0.6,
+  "fade_out": 1.0,
+  "scenes": [
+    {
+      "image": "/Users/mrityunjaykum.ranjan/Downloads/pic/Sunset Goodbye at the Cruise Dock.png",
+      "duration": 12.774,
+      "fit": "cover",
+      "motion": "zoom_in",
+      "zoom": 1.12,
+      "focus": [
+        0.6212,
+        0.1933
+      ],
+      "faces": 1,
+      "transition": "crossfade",
+      "depth": true,
+      "motion_prompt": "Pixar-style 3D animation, keep characters' faces and outfits exactly as in the image, smooth natural motion, natural colors and soft lighting as in the image. The father kneels down and hugs his little daughter tightly; she wraps her small arms around his neck. Sea waves roll gently, seagulls glide. Slow camera push in.",
+      "animate": true,
+      "clip_speed": 0.8,
+      "clip": "/Users/mrityunjaykum.ranjan/.cache/img2vid/clips/hq-727f9c27b3b32a9ecceb9e6b80fa549f62b33e6f.npz",
+      "clip_loop": "forward"
+    },
+    {
+      "image": "/Users/mrityunjaykum.ranjan/Downloads/pic/Goodbye Across the Sunset Sky-5.png",
+      "duration": 12.546,
+      "fit": "contain",
+      "motion": "zoom_in",
+      "zoom": 1.12,
+      "focus": [
+        0.8413,
+        0.0762
+      ],
+      "faces": 1,
+      "transition": "crossfade",
+      "depth": true,
+      "motion_prompt": "Pixar-style 3D animation, keep characters' faces and outfits exactly as in the image, smooth natural motion, natural colors and soft lighting as in the image. The little girl hugs her white bunny tighter as she watches her father walk away in the distance. Sunset clouds drift. Slow camera push in.",
+      "animate": true,
+      "clip_speed": 0.8,
+      "clip": "/Users/mrityunjaykum.ranjan/.cache/img2vid/clips/hq-b1ae8ff7765a1b64370ece5a6c1ba63f070d8c0a.npz",
+      "clip_loop": "forward"
+    },
+    {
+      "image": "/Users/mrityunjaykum.ranjan/Downloads/pic/A Magical Doll Shop Adventure.png",
+      "duration": 12.546,
+      "fit": "cover",
+      "motion": "zoom_in",
+      "zoom": 1.12,
+      "focus": [
+        0.6976,
+        0.3466
+      ],
+      "faces": 2,
+      "transition": "crossfade",
+      "depth": true,
+      "motion_prompt": "Pixar-style 3D animation, keep characters' faces and outfits exactly as in the image, smooth natural motion, natural colors and soft lighting as in the image. The father lifts the pink doll from the shelf and smiles warmly at it. Fairy lights twinkle softly. Slow camera push in.",
+      "animate": true,
+      "clip_speed": 0.8,
+      "clip": "/Users/mrityunjaykum.ranjan/.cache/img2vid/clips/hq-84e7fce3369f70eafceb2d69a29a902c8c8c4b0f.npz",
+      "clip_loop": "forward"
+    },
+    {
+      "image": "/Users/mrityunjaykum.ranjan/Downloads/pic/Dreaming of Dad\u2019s Toy Market Surprise-1.png",
+      "duration": 15.332,
+      "fit": "cover",
+      "motion": "zoom_in",
+      "zoom": 1.12,
+      "focus": [
+        0.6452,
+        0.1587
+      ],
+      "faces": 2,
+      "transition": "crossfade",
+      "depth": true,
+      "motion_prompt": "Pixar-style 3D animation, keep characters' faces and outfits exactly as in the image, smooth natural motion, natural colors and soft lighting as in the image. The baby smiles wider and gently sways her head while dreaming of her father with the doll. Sparkles float upward. Slow camera push in.",
+      "animate": true,
+      "clip_speed": 0.8,
+      "clip": "/Users/mrityunjaykum.ranjan/.cache/img2vid/clips/hq-501d1b31834f1dd699c63777d74ee604ac61ab57.npz",
+      "clip_loop": "forward"
+    },
+    {
+      "image": "/Users/mrityunjaykum.ranjan/Downloads/pic/Dreamy Dollhouse Wish.png",
+      "duration": 12.546,
+      "fit": "cover",
+      "motion": "zoom_out",
+      "zoom": 1.12,
+      "focus": [
+        0.587,
+        0.834
+      ],
+      "faces": 2,
+      "transition": "crossfade",
+      "depth": true,
+      "motion_prompt": "Pixar-style 3D animation, keep characters' faces and outfits exactly as in the image, smooth natural motion, natural colors and soft lighting as in the image. The little girl lying on the rug happily swings her feet while she dreams of the doll. Small hearts float upward. Slow camera pull back.",
+      "animate": true,
+      "clip_speed": 0.8,
+      "clip": "/Users/mrityunjaykum.ranjan/.cache/img2vid/clips/hq-067293b9cb905f40a9602b7237f927d8963abbb9.npz",
+      "clip_loop": "forward"
+    },
+    {
+      "image": "/Users/mrityunjaykum.ranjan/Downloads/pic/A Toddler\u2019s Dream of Homecoming-9.png",
+      "duration": 12.546,
+      "fit": "cover",
+      "motion": "zoom_in",
+      "zoom": 1.12,
+      "focus": [
+        0.7469,
+        0.1278
+      ],
+      "faces": 1,
+      "transition": "crossfade",
+      "depth": true,
+      "motion_prompt": "Pixar-style 3D animation, keep characters' faces and outfits exactly as in the image, smooth natural motion, natural colors and soft lighting as in the image. The toddler looks up at the dream bubble and smiles; inside it her father opens his arms wide. Lamp light glows. Slow camera push in.",
+      "animate": true,
+      "clip_speed": 0.8,
+      "clip": "/Users/mrityunjaykum.ranjan/.cache/img2vid/clips/hq-99b7c98385e0885bd11e25826e2585bd19603b7d.npz",
+      "clip_loop": "forward"
+    },
+    {
+      "image": "/Users/mrityunjaykum.ranjan/Downloads/pic/Waiting for Papa on a Rainy Night.png",
+      "duration": 12.546,
+      "fit": "cover",
+      "motion": "zoom_in",
+      "zoom": 1.12,
+      "focus": [
+        0.075,
+        0.1267
+      ],
+      "faces": 1,
+      "transition": "crossfade",
+      "depth": true,
+      "motion_prompt": "Pixar-style 3D animation, keep characters' faces and outfits exactly as in the image, smooth natural motion, natural colors and soft lighting as in the image. The little girl hugs her knees and slowly rests her head on them. Rain falls outside. Static camera.",
+      "animate": false,
+      "clip_speed": 0.8
+    },
+    {
+      "image": "/Users/mrityunjaykum.ranjan/Downloads/pic/Waiting by the Rainy Window.png",
+      "duration": 12.546,
+      "fit": "cover",
+      "motion": "zoom_in",
+      "zoom": 1.12,
+      "focus": [
+        0.815,
+        0.3644
+      ],
+      "faces": 1,
+      "transition": "crossfade",
+      "depth": true,
+      "motion_prompt": "Pixar-style 3D animation, keep characters' faces and outfits exactly as in the image, smooth natural motion, natural colors and soft lighting as in the image. The little girl slowly wipes the foggy window glass with her hand and looks outside. Raindrops run down the glass. Slow camera push in.",
+      "animate": true,
+      "clip_speed": 0.8,
+      "clip": "/Users/mrityunjaykum.ranjan/.cache/img2vid/clips/hq-873ee85b8f619dc9986e718886573c179148a1c9.npz",
+      "clip_loop": "forward"
+    },
+    {
+      "image": "/Users/mrityunjaykum.ranjan/Downloads/pic/Gemini_Generated_Image_4iqup04iqup04iqu (1).png",
+      "duration": 12.546,
+      "fit": "cover",
+      "motion": "zoom_in",
+      "zoom": 1.12,
+      "focus": [
+        0.5072,
+        0.4927
+      ],
+      "faces": 0,
+      "transition": "crossfade",
+      "depth": true,
+      "motion_prompt": "Pixar-style 3D animation, keep characters' faces and outfits exactly as in the image, smooth natural motion, natural colors and soft lighting as in the image. A quiet empty living room at night; the curtains blow gently and moonlight shifts slowly across the floor. Slow camera pan.",
+      "animate": true,
+      "clip_speed": 0.8,
+      "clip": "/Users/mrityunjaykum.ranjan/.cache/img2vid/clips/hq-f07f54f343ce69bfdee7f8195c6466062f3ef021.npz",
+      "clip_loop": "forward"
+    },
+    {
+      "image": "/Users/mrityunjaykum.ranjan/Downloads/pic/Gemini_Generated_Image_4iqup04iqup04iqu.png",
+      "duration": 15.332,
+      "fit": "cover",
+      "motion": "zoom_in",
+      "zoom": 1.12,
+      "focus": [
+        0.474,
+        0.5378
+      ],
+      "faces": 0,
+      "transition": "crossfade",
+      "depth": true,
+      "motion_prompt": "Pixar-style 3D animation, keep characters' faces and outfits exactly as in the image, smooth natural motion, natural colors and soft lighting as in the image. The little girl hugs her teddy bear and slowly turns her head toward the door. Curtains drift, stars twinkle. Slow camera push in.",
+      "animate": true,
+      "clip_speed": 0.8,
+      "clip": "/Users/mrityunjaykum.ranjan/.cache/img2vid/clips/hq-f0264a818335e7efa1d304f017226f41b7c977e1.npz",
+      "clip_loop": "forward"
+    },
+    {
+      "image": "/Users/mrityunjaykum.ranjan/Downloads/pic/Gemini_Generated_Image_4iqup04iqup04iqu (3).png",
+      "duration": 12.546,
+      "fit": "cover",
+      "motion": "zoom_in",
+      "zoom": 1.12,
+      "focus": [
+        0.533,
+        0.4968
+      ],
+      "faces": 0,
+      "transition": "crossfade",
+      "depth": true,
+      "motion_prompt": "Pixar-style 3D animation, keep characters' faces and outfits exactly as in the image, smooth natural motion, natural colors and soft lighting as in the image. The little girl slowly opens the door a little and peeks outside, holding her teddy. Moonlight spills in. Slow camera push in.",
+      "animate": true,
+      "clip_speed": 0.8,
+      "clip": "/Users/mrityunjaykum.ranjan/.cache/img2vid/clips/hq-5611e8728188c9fdf47b45cc7aba4b70de43e412.npz",
+      "clip_loop": "forward"
+    },
+    {
+      "image": "/Users/mrityunjaykum.ranjan/Downloads/pic/Gemini_Generated_Image_4iqup04iqup04iqu (2).png",
+      "duration": 12.546,
+      "fit": "cover",
+      "motion": "zoom_in",
+      "zoom": 1.12,
+      "focus": [
+        0.539,
+        0.4772
+      ],
+      "faces": 3,
+      "transition": "crossfade",
+      "depth": true,
+      "motion_prompt": "Pixar-style 3D animation, keep characters' faces and outfits exactly as in the image, smooth natural motion, natural colors and soft lighting as in the image. The little girl lifts her father's photo frame and hugs it to her chest. Lamp light flickers softly. Slow camera push in.",
+      "animate": true,
+      "clip_speed": 0.8,
+      "clip": "/Users/mrityunjaykum.ranjan/.cache/img2vid/clips/hq-e9a74d536a27ab86d7b905fbb5116e54e4a6258b.npz",
+      "clip_loop": "forward"
+    },
+    {
+      "image": "/Users/mrityunjaykum.ranjan/Downloads/pic/Moonlit Toddler\u2019s Quiet Longing-6.png",
+      "duration": 12.546,
+      "fit": "contain",
+      "motion": "zoom_in",
+      "zoom": 1.12,
+      "focus": [
+        0.8646,
+        0.0963
+      ],
+      "faces": 1,
+      "transition": "crossfade",
+      "depth": true,
+      "motion_prompt": "Pixar-style 3D animation, keep characters' faces and outfits exactly as in the image, smooth natural motion, natural colors and soft lighting as in the image. The toddler slowly lifts her head and looks up at the bright moon. The curtain sways. Slow camera push in.",
+      "animate": true,
+      "clip_speed": 0.8,
+      "clip": "/Users/mrityunjaykum.ranjan/.cache/img2vid/clips/hq-30b475213c0b9f476b567b3f3cc9b062b3c6b87f.npz",
+      "clip_loop": "forward"
+    },
+    {
+      "image": "/Users/mrityunjaykum.ranjan/Downloads/pic/Gemini_Generated_Image_4iqup04iqup04iqu (4).png",
+      "duration": 12.546,
+      "fit": "cover",
+      "motion": "zoom_in",
+      "zoom": 1.12,
+      "focus": [
+        0.575,
+        0.307
+      ],
+      "faces": 2,
+      "transition": "crossfade",
+      "depth": true,
+      "motion_prompt": "Pixar-style 3D animation, keep characters' faces and outfits exactly as in the image, smooth natural motion, natural colors and soft lighting as in the image. The mother gently strokes her daughter's hair while the girl leans on her shoulder. Warm lamp light. Slow camera push in.",
+      "animate": true,
+      "clip_speed": 0.8,
+      "clip": "/Users/mrityunjaykum.ranjan/.cache/img2vid/clips/hq-a4150f1ea5f8fdae73b7ccbc1a583982ffc016da.npz",
+      "clip_loop": "forward"
+    },
+    {
+      "image": "/Users/mrityunjaykum.ranjan/Downloads/pic/Gemini_Generated_Image_4iqup04iqup04iqu (5).png",
+      "duration": 15.332,
+      "fit": "cover",
+      "motion": "zoom_out",
+      "zoom": 1.12,
+      "focus": [
+        0.4488,
+        0.283
+      ],
+      "faces": 2,
+      "transition": "crossfade",
+      "depth": true,
+      "motion_prompt": "Pixar-style 3D animation, keep characters' faces and outfits exactly as in the image, smooth natural motion, natural colors and soft lighting as in the image. The little girl in bed slowly closes her eyes and falls asleep hugging her teddy. Moonlight on the blanket. Slow camera pull back.",
+      "animate": true,
+      "clip_speed": 0.8
+    },
+    {
+      "image": "/Users/mrityunjaykum.ranjan/Downloads/pic/Gemini_Generated_Image_4iqup04iqup04iqu (6).png",
+      "duration": 12.546,
+      "fit": "cover",
+      "motion": "zoom_in",
+      "zoom": 1.12,
+      "focus": [
+        0.4977,
+        0.5757
+      ],
+      "faces": 0,
+      "transition": "crossfade",
+      "depth": true,
+      "motion_prompt": "Pixar-style 3D animation, keep characters' faces and outfits exactly as in the image, smooth natural motion, natural colors and soft lighting as in the image. The little girl picks up a broken toy and looks at it sadly. Lamp light flickers gently. Slow camera push in.",
+      "animate": true,
+      "clip_speed": 0.8,
+      "clip": "/Users/mrityunjaykum.ranjan/.cache/img2vid/clips/hq-6167e97bdaf6bc631aa2a776ddf8c985b9b946bf.npz",
+      "clip_loop": "forward"
+    },
+    {
+      "image": "/Users/mrityunjaykum.ranjan/Downloads/pic/Gemini_Generated_Image_u1a8bku1a8bku1a8.png",
+      "duration": 12.546,
+      "fit": "cover",
+      "motion": "zoom_in",
+      "zoom": 1.12,
+      "focus": [
+        0.2825,
+        0.123
+      ],
+      "faces": 1,
+      "transition": "crossfade",
+      "depth": true,
+      "motion_prompt": "Pixar-style 3D animation, keep characters' faces and outfits exactly as in the image, smooth natural motion, natural colors and soft lighting as in the image. The paper letter on the table flutters in a soft breeze while dust drifts in the moonlight; nobody is in the room. Slow camera pan.",
+      "animate": true,
+      "clip_speed": 0.8,
+      "clip": "/Users/mrityunjaykum.ranjan/.cache/img2vid/clips/hq-5aacea2531a5f0d761f954a21cab13a2a043fa03.npz",
+      "clip_loop": "forward"
+    },
+    {
+      "image": "/Users/mrityunjaykum.ranjan/Downloads/pic/Hopeful Diwali Waiting-8.png",
+      "duration": 12.546,
+      "fit": "cover",
+      "motion": "zoom_in",
+      "zoom": 1.12,
+      "focus": [
+        0.6644,
+        0.6589
+      ],
+      "faces": 1,
+      "transition": "crossfade",
+      "depth": true,
+      "motion_prompt": "Pixar-style 3D animation, keep characters' faces and outfits exactly as in the image, smooth natural motion, natural colors and soft lighting as in the image. The family turns their heads together toward the open door with hopeful smiles. Diya flames flicker, festive lights twinkle. Slow camera push in.",
+      "animate": true,
+      "clip_speed": 0.8,
+      "clip": "/Users/mrityunjaykum.ranjan/.cache/img2vid/clips/hq-265cf3e0c0696b796bf84174809c7a414f37b37f.npz",
+      "clip_loop": "forward"
+    },
+    {
+      "image": "/Users/mrityunjaykum.ranjan/Downloads/pic/Gemini_Generated_Image_nsrg9insrg9insrg.png",
+      "duration": 12.546,
+      "fit": "cover",
+      "motion": "zoom_in",
+      "zoom": 1.12,
+      "focus": [
+        0.4968,
+        0.5218
+      ],
+      "faces": 0,
+      "transition": "crossfade",
+      "depth": true,
+      "motion_prompt": "Pixar-style 3D animation, keep characters' faces and outfits exactly as in the image, smooth natural motion, natural colors and soft lighting as in the image. The little girl turns toward the door and her face lights up with a big smile. Warm lamp light. Slow camera push in.",
+      "animate": true,
+      "clip_speed": 0.8,
+      "clip": "/Users/mrityunjaykum.ranjan/.cache/img2vid/clips/hq-74697c84d945a00e6e3c7a333fff442f49b093a8.npz",
+      "clip_loop": "forward"
+    },
+    {
+      "image": "/Users/mrityunjaykum.ranjan/Downloads/pic/Comforting Bedtime with a Broken Bunny-7.png",
+      "duration": 13.566,
+      "fit": "cover",
+      "motion": "zoom_out",
+      "zoom": 1.12,
+      "focus": [
+        0.4499,
+        0.399
+      ],
+      "faces": 6,
+      "transition": "cut",
+      "depth": true,
+      "motion_prompt": "Pixar-style 3D animation, keep characters' faces and outfits exactly as in the image, smooth natural motion, natural colors and soft lighting as in the image. The father gently kisses his daughter's forehead while the mother smiles beside them. Warm night lamp glows. Slow camera pull back.",
+      "animate": true,
+      "clip_speed": 0.8,
+      "clip": "/Users/mrityunjaykum.ranjan/.cache/img2vid/clips/hq-b8651b9d57843e67cdc2b5ffcb1e75904d91cf81.npz",
+      "clip_loop": "forward"
+    }
+  ],
+  "title": "\u092a\u092a\u094d\u092a\u093e \u091c\u0932\u094d\u0926\u0940 \u0906 \u091c\u093e\u0928\u093e",
+  "beat_period": 0.6966
+}
