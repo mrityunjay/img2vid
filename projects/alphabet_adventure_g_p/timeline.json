@@ -1,0 +1,620 @@
+{
+  "fps": 24,
+  "duration": 205.875,
+  "frames": 4941,
+  "audio_duration": 205.84570833333333,
+  "sections": [
+    {
+      "kind": "intro",
+      "heading": "Ten new letters. Let's explore!",
+      "badge": "G TO P",
+      "image_index": 0,
+      "name": "Spoken Intro",
+      "index": 0,
+      "start_frame": 0,
+      "end_frame": 285,
+      "start": 0.0,
+      "end": 11.875,
+      "duration": 11.875
+    },
+    {
+      "letter": "G",
+      "word": "Giraffe",
+      "color": "#B66D12",
+      "image_prompt": "One adorable baby giraffe standing on four slender legs, with a long graceful neck, small rounded ossicones, two ears, warm golden fur with brown patches, large gentle brown eyes, a friendly closed-mouth smile and one short tail. Entire giraffe visible from the top of its head to all four hooves, generous headroom. Three-quarter front view, natural giraffe anatomy, no clothing.",
+      "motion_prompt": "The baby giraffe stands still on four hooves and gently moves the tip of its single tail. Preserve its long neck, face, patches, two ears and four legs. Static camera, unchanged cream background. No walking, extra limbs, new animals or text.",
+      "kind": "letter",
+      "image_index": 0,
+      "heading": "Meet the letter G",
+      "badge": "LETTER 1 OF 10",
+      "name": "Spoken Verse 1",
+      "index": 1,
+      "start_frame": 285,
+      "end_frame": 598,
+      "start": 11.875,
+      "end": 24.916666666666668,
+      "duration": 13.041666666666666
+    },
+    {
+      "letter": "H",
+      "word": "Hat",
+      "color": "#2C78BE",
+      "image_prompt": "One cheerful sky-blue sun hat with a rounded crown, a wide gently curved brim and one simple golden-yellow ribbon around the crown. The whole hat rests upright on a clean studio floor. Clear recognizable hat silhouette, soft woven fabric texture. No face, eyes, arms, people, writing or accessories.",
+      "motion_prompt": "A single blue sun hat rests on the cream floor. One loose end of its yellow ribbon gently flutters. The hat and brim stay still. Preserve its exact shape, fabric and colors. Static camera, no people, faces, extra objects or text.",
+      "kind": "letter",
+      "image_index": 1,
+      "heading": "Meet the letter H",
+      "badge": "LETTER 2 OF 10",
+      "name": "Spoken Verse 2",
+      "index": 2,
+      "start_frame": 598,
+      "end_frame": 888,
+      "start": 24.916666666666668,
+      "end": 37.0,
+      "duration": 12.083333333333334
+    },
+    {
+      "letter": "I",
+      "word": "Ice cream",
+      "color": "#C8487A",
+      "image_prompt": "One ice cream cone standing upright, with one round scoop of pale strawberry-pink ice cream on top of one crisp golden waffle cone. The entire cone and scoop are clearly visible. A clean simple silhouette and softly detailed waffle texture. No melting, dripping, toppings, face, hands, writing or extra objects.",
+      "motion_prompt": "The single strawberry ice cream cone slowly rotates a few degrees around its upright axis. Its base stays in the same place. Preserve one round pink scoop and one waffle cone. No melting, dripping, extra scoops or faces. Static camera and unchanged cream background.",
+      "kind": "letter",
+      "image_index": 2,
+      "heading": "Meet the letter I",
+      "badge": "LETTER 3 OF 10",
+      "name": "Spoken Verse 3",
+      "index": 3,
+      "start_frame": 888,
+      "end_frame": 1200,
+      "start": 37.0,
+      "end": 50.0,
+      "duration": 13.0
+    },
+    {
+      "letter": "J",
+      "word": "Juice",
+      "color": "#B86015",
+      "image_prompt": "One clear wide drinking glass filled three-quarters with bright orange juice. The glass has a simple cylindrical shape and a sturdy flat base, resting on the studio floor. The orange liquid is clearly visible with a smooth surface. No fruit, straw, ice cubes, label, writing, face, hands or extra glasses.",
+      "motion_prompt": "Tiny gentle ripples travel across the surface of the orange juice inside one stationary clear glass. Preserve the glass shape, liquid level and orange color. No spilling, bubbles, hands, extra objects or text. Locked camera and stable cream background.",
+      "kind": "letter",
+      "image_index": 3,
+      "heading": "Meet the letter J",
+      "badge": "LETTER 4 OF 10",
+      "name": "Spoken Verse 4",
+      "index": 4,
+      "start_frame": 1200,
+      "end_frame": 1498,
+      "start": 50.0,
+      "end": 62.416666666666664,
+      "duration": 12.416666666666666
+    },
+    {
+      "letter": "K",
+      "word": "Kite",
+      "color": "#7854AA",
+      "image_prompt": "One colorful classic diamond-shaped kite floating upright above a clean cream studio floor, with four simple panels in blue, coral, yellow and purple. One short curved tail with two small ribbon bows hangs below it. The entire diamond and tail are visible with generous margins. No people, writing, faces, extra kites or tangled strings.",
+      "motion_prompt": "One colorful diamond kite gently sways a little left and right while its single short ribbon tail follows. Preserve the diamond shape, four colored panels and two tail bows. No flips, rotations, new objects or text. Static camera, stable cream background.",
+      "kind": "letter",
+      "image_index": 4,
+      "heading": "Meet the letter K",
+      "badge": "LETTER 5 OF 10",
+      "name": "Spoken Verse 5",
+      "index": 5,
+      "start_frame": 1498,
+      "end_frame": 1786,
+      "start": 62.416666666666664,
+      "end": 74.41666666666667,
+      "duration": 12.0
+    },
+    {
+      "letter": "L",
+      "word": "Lion",
+      "color": "#A96916",
+      "image_prompt": "One adorable friendly young lion sitting upright with a soft fluffy rounded caramel mane, golden fur, two round ears, large kind brown eyes, a small dark nose, four natural paws and one tail visible beside its body. Calm closed-mouth smile, no exposed teeth. Full body and paws visible. Clearly a lion, no clothing or accessories.",
+      "motion_prompt": "The friendly seated lion slowly blinks once. Its four paws remain still. Preserve the round caramel mane, golden fur, face, two ears and single tail. No roaring, exposed teeth, extra limbs or text. Static camera, unchanged cream background.",
+      "kind": "letter",
+      "image_index": 5,
+      "heading": "Meet the letter L",
+      "badge": "LETTER 6 OF 10",
+      "name": "Spoken Verse 6",
+      "index": 6,
+      "start_frame": 1786,
+      "end_frame": 2079,
+      "start": 74.41666666666667,
+      "end": 86.625,
+      "duration": 12.208333333333334
+    },
+    {
+      "letter": "M",
+      "word": "Monkey",
+      "color": "#956138",
+      "image_prompt": "One adorable small brown monkey sitting upright, with a cream-colored face and tummy, two round ears, two bright friendly brown eyes, two arms with hands resting beside its body, two legs with feet visible and one long curled tail beside it. Natural simple anatomy, gentle closed-mouth smile, full body visible. No clothes, bananas or accessories.",
+      "motion_prompt": "The small seated brown monkey gently sways the tip of its single curled tail. Its hands and feet remain still. Preserve its cream face, two ears, two arms, two legs and body shape. No new limbs, objects or text. Locked camera and stable cream background.",
+      "kind": "letter",
+      "image_index": 6,
+      "heading": "Meet the letter M",
+      "badge": "LETTER 7 OF 10",
+      "name": "Spoken Verse 7",
+      "index": 7,
+      "start_frame": 2079,
+      "end_frame": 2387,
+      "start": 86.625,
+      "end": 99.45833333333333,
+      "duration": 12.833333333333334
+    },
+    {
+      "letter": "N",
+      "word": "Nest",
+      "color": "#30856C",
+      "image_prompt": "One small rounded bird nest woven from soft brown twigs and dry golden grass, resting on the studio floor. Three smooth pale-blue eggs sit safely inside the shallow nest, clearly visible from a slightly elevated front view. The complete nest is visible with generous margins. No birds, chicks, broken eggs, trees, faces, writing or extra nests.",
+      "motion_prompt": "Two fine grass tips along the rim of the stationary bird nest gently sway in a light breeze. The three pale-blue eggs remain still and intact. Preserve the nest shape and egg count. Static camera, no hatching, birds, new objects or text.",
+      "kind": "letter",
+      "image_index": 7,
+      "heading": "Meet the letter N",
+      "badge": "LETTER 8 OF 10",
+      "name": "Spoken Verse 8",
+      "index": 8,
+      "start_frame": 2387,
+      "end_frame": 2679,
+      "start": 99.45833333333333,
+      "end": 111.625,
+      "duration": 12.166666666666666
+    },
+    {
+      "letter": "O",
+      "word": "Orange",
+      "color": "#C16C13",
+      "image_prompt": "One whole ripe orange fruit resting on the studio floor, with round natural shape, softly dimpled vivid orange peel, a tiny short stem and one fresh green leaf. Clear recognizable fruit silhouette. The fruit is the only subject, not cut open. No face, eyes, hands, writing or additional fruit.",
+      "motion_prompt": "The single whole orange remains still while its small green leaf gently sways once. Preserve its round shape, dimpled peel, stem and colors. No cutting, new fruit, faces or text. Locked camera and unchanged cream studio background.",
+      "kind": "letter",
+      "image_index": 8,
+      "heading": "Meet the letter O",
+      "badge": "LETTER 9 OF 10",
+      "name": "Spoken Verse 9",
+      "index": 9,
+      "start_frame": 2679,
+      "end_frame": 2973,
+      "start": 111.625,
+      "end": 123.875,
+      "duration": 12.25
+    },
+    {
+      "letter": "P",
+      "word": "Penguin",
+      "color": "#287A9A",
+      "image_prompt": "One adorable fluffy baby penguin standing upright on two small orange webbed feet, with soft gray body feathers, a white tummy, dark rounded head, two friendly eyes, one small orange beak and two short flippers at its sides. Full body clearly visible with generous margins. Calm friendly expression, no clothes, snow props or accessories.",
+      "motion_prompt": "The single baby penguin stands on two feet and gently wiggles its two small flippers. Preserve its gray feathers, white tummy, face, beak and body proportions. No walking, extra flippers, new objects or text. Static camera and unchanged cream background.",
+      "kind": "letter",
+      "image_index": 9,
+      "heading": "Meet the letter P",
+      "badge": "LETTER 10 OF 10",
+      "name": "Spoken Verse 10",
+      "index": 10,
+      "start_frame": 2973,
+      "end_frame": 3276,
+      "start": 123.875,
+      "end": 136.5,
+      "duration": 12.625
+    },
+    {
+      "kind": "recap",
+      "heading": "Say five letters with me!",
+      "badge": "LET'S REMEMBER",
+      "image_index": 6,
+      "name": "Spoken Recap",
+      "index": 11,
+      "start_frame": 3276,
+      "end_frame": 3679,
+      "start": 136.5,
+      "end": 153.29166666666666,
+      "duration": 16.791666666666668
+    },
+    {
+      "letter": "M",
+      "word": "Monkey",
+      "color": "#956138",
+      "image_prompt": "One adorable small brown monkey sitting upright, with a cream-colored face and tummy, two round ears, two bright friendly brown eyes, two arms with hands resting beside its body, two legs with feet visible and one long curled tail beside it. Natural simple anatomy, gentle closed-mouth smile, full body visible. No clothes, bananas or accessories.",
+      "motion_prompt": "The small seated brown monkey gently sways the tip of its single curled tail. Its hands and feet remain still. Preserve its cream face, two ears, two arms, two legs and body shape. No new limbs, objects or text. Locked camera and stable cream background.",
+      "options": [
+        "G",
+        "M",
+        "P"
+      ],
+      "kind": "quiz",
+      "image_index": 6,
+      "heading": "Let's play: find the letter!",
+      "badge": "GAME 1 OF 3",
+      "name": "Spoken Quiz 1",
+      "index": 12,
+      "start_frame": 3679,
+      "end_frame": 3988,
+      "start": 153.29166666666666,
+      "end": 166.16666666666666,
+      "duration": 12.875
+    },
+    {
+      "letter": "K",
+      "word": "Kite",
+      "color": "#7854AA",
+      "image_prompt": "One colorful classic diamond-shaped kite floating upright above a clean cream studio floor, with four simple panels in blue, coral, yellow and purple. One short curved tail with two small ribbon bows hangs below it. The entire diamond and tail are visible with generous margins. No people, writing, faces, extra kites or tangled strings.",
+      "motion_prompt": "One colorful diamond kite gently sways a little left and right while its single short ribbon tail follows. Preserve the diamond shape, four colored panels and two tail bows. No flips, rotations, new objects or text. Static camera, stable cream background.",
+      "options": [
+        "K",
+        "N",
+        "H"
+      ],
+      "kind": "quiz",
+      "image_index": 4,
+      "heading": "Let's play: find the letter!",
+      "badge": "GAME 2 OF 3",
+      "name": "Spoken Quiz 2",
+      "index": 13,
+      "start_frame": 3988,
+      "end_frame": 4277,
+      "start": 166.16666666666666,
+      "end": 178.20833333333334,
+      "duration": 12.041666666666666
+    },
+    {
+      "letter": "P",
+      "word": "Penguin",
+      "color": "#287A9A",
+      "image_prompt": "One adorable fluffy baby penguin standing upright on two small orange webbed feet, with soft gray body feathers, a white tummy, dark rounded head, two friendly eyes, one small orange beak and two short flippers at its sides. Full body clearly visible with generous margins. Calm friendly expression, no clothes, snow props or accessories.",
+      "motion_prompt": "The single baby penguin stands on two feet and gently wiggles its two small flippers. Preserve its gray feathers, white tummy, face, beak and body proportions. No walking, extra flippers, new objects or text. Static camera and unchanged cream background.",
+      "options": [
+        "I",
+        "J",
+        "P"
+      ],
+      "kind": "quiz",
+      "image_index": 9,
+      "heading": "Let's play: find the letter!",
+      "badge": "GAME 3 OF 3",
+      "name": "Spoken Quiz 3",
+      "index": 14,
+      "start_frame": 4277,
+      "end_frame": 4577,
+      "start": 178.20833333333334,
+      "end": 190.70833333333334,
+      "duration": 12.5
+    },
+    {
+      "kind": "outro",
+      "heading": "You are an alphabet explorer!",
+      "badge": "WELL DONE",
+      "image_index": 9,
+      "name": "Spoken Outro",
+      "index": 15,
+      "start_frame": 4577,
+      "end_frame": 4941,
+      "start": 190.70833333333334,
+      "end": 205.875,
+      "duration": 15.166666666666666
+    }
+  ],
+  "events": [
+    {
+      "section": 0,
+      "phase": "talk",
+      "group": "GHIJKLMNOP",
+      "start_frame": 0,
+      "end_frame": 285
+    },
+    {
+      "section": 1,
+      "phase": "talk",
+      "group": "GHIJKLMNOP",
+      "start_frame": 285,
+      "end_frame": 452
+    },
+    {
+      "section": 1,
+      "phase": "wait",
+      "group": "GHIJKLMNOP",
+      "start_frame": 452,
+      "end_frame": 500
+    },
+    {
+      "section": 1,
+      "phase": "answer",
+      "group": "GHIJKLMNOP",
+      "start_frame": 500,
+      "end_frame": 598
+    },
+    {
+      "section": 2,
+      "phase": "talk",
+      "group": "GHIJKLMNOP",
+      "start_frame": 598,
+      "end_frame": 753
+    },
+    {
+      "section": 2,
+      "phase": "wait",
+      "group": "GHIJKLMNOP",
+      "start_frame": 753,
+      "end_frame": 801
+    },
+    {
+      "section": 2,
+      "phase": "answer",
+      "group": "GHIJKLMNOP",
+      "start_frame": 801,
+      "end_frame": 888
+    },
+    {
+      "section": 3,
+      "phase": "talk",
+      "group": "GHIJKLMNOP",
+      "start_frame": 888,
+      "end_frame": 1054
+    },
+    {
+      "section": 3,
+      "phase": "wait",
+      "group": "GHIJKLMNOP",
+      "start_frame": 1054,
+      "end_frame": 1102
+    },
+    {
+      "section": 3,
+      "phase": "answer",
+      "group": "GHIJKLMNOP",
+      "start_frame": 1102,
+      "end_frame": 1200
+    },
+    {
+      "section": 4,
+      "phase": "talk",
+      "group": "GHIJKLMNOP",
+      "start_frame": 1200,
+      "end_frame": 1358
+    },
+    {
+      "section": 4,
+      "phase": "wait",
+      "group": "GHIJKLMNOP",
+      "start_frame": 1358,
+      "end_frame": 1406
+    },
+    {
+      "section": 4,
+      "phase": "answer",
+      "group": "GHIJKLMNOP",
+      "start_frame": 1406,
+      "end_frame": 1498
+    },
+    {
+      "section": 5,
+      "phase": "talk",
+      "group": "GHIJKLMNOP",
+      "start_frame": 1498,
+      "end_frame": 1649
+    },
+    {
+      "section": 5,
+      "phase": "wait",
+      "group": "GHIJKLMNOP",
+      "start_frame": 1649,
+      "end_frame": 1697
+    },
+    {
+      "section": 5,
+      "phase": "answer",
+      "group": "GHIJKLMNOP",
+      "start_frame": 1697,
+      "end_frame": 1786
+    },
+    {
+      "section": 6,
+      "phase": "talk",
+      "group": "GHIJKLMNOP",
+      "start_frame": 1786,
+      "end_frame": 1942
+    },
+    {
+      "section": 6,
+      "phase": "wait",
+      "group": "GHIJKLMNOP",
+      "start_frame": 1942,
+      "end_frame": 1990
+    },
+    {
+      "section": 6,
+      "phase": "answer",
+      "group": "GHIJKLMNOP",
+      "start_frame": 1990,
+      "end_frame": 2079
+    },
+    {
+      "section": 7,
+      "phase": "talk",
+      "group": "GHIJKLMNOP",
+      "start_frame": 2079,
+      "end_frame": 2247
+    },
+    {
+      "section": 7,
+      "phase": "wait",
+      "group": "GHIJKLMNOP",
+      "start_frame": 2247,
+      "end_frame": 2295
+    },
+    {
+      "section": 7,
+      "phase": "answer",
+      "group": "GHIJKLMNOP",
+      "start_frame": 2295,
+      "end_frame": 2387
+    },
+    {
+      "section": 8,
+      "phase": "talk",
+      "group": "GHIJKLMNOP",
+      "start_frame": 2387,
+      "end_frame": 2544
+    },
+    {
+      "section": 8,
+      "phase": "wait",
+      "group": "GHIJKLMNOP",
+      "start_frame": 2544,
+      "end_frame": 2592
+    },
+    {
+      "section": 8,
+      "phase": "answer",
+      "group": "GHIJKLMNOP",
+      "start_frame": 2592,
+      "end_frame": 2679
+    },
+    {
+      "section": 9,
+      "phase": "talk",
+      "group": "GHIJKLMNOP",
+      "start_frame": 2679,
+      "end_frame": 2836
+    },
+    {
+      "section": 9,
+      "phase": "wait",
+      "group": "GHIJKLMNOP",
+      "start_frame": 2836,
+      "end_frame": 2884
+    },
+    {
+      "section": 9,
+      "phase": "answer",
+      "group": "GHIJKLMNOP",
+      "start_frame": 2884,
+      "end_frame": 2973
+    },
+    {
+      "section": 10,
+      "phase": "talk",
+      "group": "GHIJKLMNOP",
+      "start_frame": 2973,
+      "end_frame": 3135
+    },
+    {
+      "section": 10,
+      "phase": "wait",
+      "group": "GHIJKLMNOP",
+      "start_frame": 3135,
+      "end_frame": 3183
+    },
+    {
+      "section": 10,
+      "phase": "answer",
+      "group": "GHIJKLMNOP",
+      "start_frame": 3183,
+      "end_frame": 3276
+    },
+    {
+      "section": 11,
+      "phase": "talk",
+      "group": "GHIJK",
+      "start_frame": 3276,
+      "end_frame": 3411
+    },
+    {
+      "section": 11,
+      "phase": "wait",
+      "group": "GHIJK",
+      "start_frame": 3411,
+      "end_frame": 3459
+    },
+    {
+      "section": 11,
+      "phase": "talk",
+      "group": "LMNOP",
+      "start_frame": 3459,
+      "end_frame": 3543
+    },
+    {
+      "section": 11,
+      "phase": "wait",
+      "group": "LMNOP",
+      "start_frame": 3543,
+      "end_frame": 3591
+    },
+    {
+      "section": 11,
+      "phase": "answer",
+      "group": "GHIJKLMNOP",
+      "start_frame": 3591,
+      "end_frame": 3679
+    },
+    {
+      "section": 12,
+      "phase": "talk",
+      "group": "GHIJKLMNOP",
+      "start_frame": 3679,
+      "end_frame": 3822
+    },
+    {
+      "section": 12,
+      "phase": "wait",
+      "group": "GHIJKLMNOP",
+      "start_frame": 3822,
+      "end_frame": 3894
+    },
+    {
+      "section": 12,
+      "phase": "answer",
+      "group": "GHIJKLMNOP",
+      "start_frame": 3894,
+      "end_frame": 3988
+    },
+    {
+      "section": 13,
+      "phase": "talk",
+      "group": "GHIJKLMNOP",
+      "start_frame": 3988,
+      "end_frame": 4126
+    },
+    {
+      "section": 13,
+      "phase": "wait",
+      "group": "GHIJKLMNOP",
+      "start_frame": 4126,
+      "end_frame": 4198
+    },
+    {
+      "section": 13,
+      "phase": "answer",
+      "group": "GHIJKLMNOP",
+      "start_frame": 4198,
+      "end_frame": 4277
+    },
+    {
+      "section": 14,
+      "phase": "talk",
+      "group": "GHIJKLMNOP",
+      "start_frame": 4277,
+      "end_frame": 4416
+    },
+    {
+      "section": 14,
+      "phase": "wait",
+      "group": "GHIJKLMNOP",
+      "start_frame": 4416,
+      "end_frame": 4488
+    },
+    {
+      "section": 14,
+      "phase": "answer",
+      "group": "GHIJKLMNOP",
+      "start_frame": 4488,
+      "end_frame": 4577
+    },
+    {
+      "section": 15,
+      "phase": "answer",
+      "group": "GHIJKLMNOP",
+      "start_frame": 4577,
+      "end_frame": 4941
+    }
+  ]
+}

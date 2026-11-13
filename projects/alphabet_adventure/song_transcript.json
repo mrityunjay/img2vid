@@ -1,0 +1,1802 @@
+[
+  {
+    "end" : 2.28,
+    "start" : 0,
+    "text" : "Hello, little explorer.",
+    "words" : [
+      {
+        "end" : 1.14,
+        "start" : 0,
+        "text" : "Hello,"
+      },
+      {
+        "end" : 1.32,
+        "start" : 1.14,
+        "text" : " little"
+      },
+      {
+        "end" : 2.22,
+        "start" : 1.32,
+        "text" : " explorer."
+      }
+    ]
+  },
+  {
+    "end" : 4.74,
+    "start" : 2.28,
+    "text" : " Let's learn the 1st 6 letters.",
+    "words" : [
+      {
+        "end" : 3.18,
+        "start" : 2.28,
+        "text" : " Let's"
+      },
+      {
+        "end" : 3.3,
+        "start" : 3.18,
+        "text" : " learn"
+      },
+      {
+        "end" : 3.54,
+        "start" : 3.3,
+        "text" : " the"
+      },
+      {
+        "end" : 3.96,
+        "start" : 3.54,
+        "text" : " 1st"
+      },
+      {
+        "end" : 4.14,
+        "start" : 3.96,
+        "text" : " 6"
+      },
+      {
+        "end" : 4.68,
+        "start" : 4.14,
+        "text" : " letters."
+      }
+    ]
+  },
+  {
+    "end" : 7.8,
+    "start" : 4.74,
+    "text" : " Look, listen, and say the words with me.",
+    "words" : [
+      {
+        "end" : 5.58,
+        "start" : 4.74,
+        "text" : " Look,"
+      },
+      {
+        "end" : 6.3,
+        "start" : 5.58,
+        "text" : " listen,"
+      },
+      {
+        "end" : 6.54,
+        "start" : 6.3,
+        "text" : " and"
+      },
+      {
+        "end" : 6.72,
+        "start" : 6.54,
+        "text" : " say"
+      },
+      {
+        "end" : 6.9,
+        "start" : 6.72,
+        "text" : " the"
+      },
+      {
+        "end" : 7.02,
+        "start" : 6.9,
+        "text" : " words"
+      },
+      {
+        "end" : 7.32,
+        "start" : 7.02,
+        "text" : " with"
+      },
+      {
+        "end" : 7.74,
+        "start" : 7.32,
+        "text" : " me."
+      }
+    ]
+  },
+  {
+    "end" : 13.44,
+    "start" : 7.8,
+    "text" : " This is the letter A capital A, and lowercase AA is for Apple.",
+    "words" : [
+      {
+        "end" : 9.06,
+        "start" : 7.8,
+        "text" : " This"
+      },
+      {
+        "end" : 9.24,
+        "start" : 9.06,
+        "text" : " is"
+      },
+      {
+        "end" : 9.36,
+        "start" : 9.24,
+        "text" : " the"
+      },
+      {
+        "end" : 9.48,
+        "start" : 9.36,
+        "text" : " letter"
+      },
+      {
+        "end" : 9.96,
+        "start" : 9.48,
+        "text" : " A"
+      },
+      {
+        "end" : 10.2,
+        "start" : 9.96,
+        "text" : " capital"
+      },
+      {
+        "end" : 10.92,
+        "start" : 10.2,
+        "text" : " A,"
+      },
+      {
+        "end" : 11.28,
+        "start" : 10.92,
+        "text" : " and"
+      },
+      {
+        "end" : 11.94,
+        "start" : 11.28,
+        "text" : " lowercase"
+      },
+      {
+        "end" : 12.54,
+        "start" : 11.94,
+        "text" : " AA"
+      },
+      {
+        "end" : 12.78,
+        "start" : 12.54,
+        "text" : " is"
+      },
+      {
+        "end" : 12.9,
+        "start" : 12.78,
+        "text" : " for"
+      },
+      {
+        "end" : 13.38,
+        "start" : 12.9,
+        "text" : " Apple."
+      }
+    ]
+  },
+  {
+    "end" : 14.82,
+    "start" : 13.44,
+    "text" : " Can you say Apple?",
+    "words" : [
+      {
+        "end" : 13.86,
+        "start" : 13.44,
+        "text" : " Can"
+      },
+      {
+        "end" : 13.98,
+        "start" : 13.86,
+        "text" : " you"
+      },
+      {
+        "end" : 14.1,
+        "start" : 13.98,
+        "text" : " say"
+      },
+      {
+        "end" : 14.7,
+        "start" : 14.1,
+        "text" : " Apple?"
+      }
+    ]
+  },
+  {
+    "end" : 17.94,
+    "start" : 15,
+    "text" : " Apple, A is for Apple.",
+    "words" : [
+      {
+        "end" : 16.68,
+        "start" : 15,
+        "text" : " Apple,"
+      },
+      {
+        "end" : 17.04,
+        "start" : 16.68,
+        "text" : " A"
+      },
+      {
+        "end" : 17.34,
+        "start" : 17.04,
+        "text" : " is"
+      },
+      {
+        "end" : 17.46,
+        "start" : 17.34,
+        "text" : " for"
+      },
+      {
+        "end" : 17.88,
+        "start" : 17.46,
+        "text" : " Apple."
+      }
+    ]
+  },
+  {
+    "end" : 19.86,
+    "start" : 17.94,
+    "text" : " Let's say A together.",
+    "words" : [
+      {
+        "end" : 18.72,
+        "start" : 17.94,
+        "text" : " Let's"
+      },
+      {
+        "end" : 18.84,
+        "start" : 18.72,
+        "text" : " say"
+      },
+      {
+        "end" : 19.14,
+        "start" : 18.84,
+        "text" : " A"
+      },
+      {
+        "end" : 19.8,
+        "start" : 19.14,
+        "text" : " together."
+      }
+    ]
+  },
+  {
+    "end" : 24.3,
+    "start" : 20.1,
+    "text" : " This is the letter B capital B, and lowercase.",
+    "words" : [
+      {
+        "end" : 21.36,
+        "start" : 20.1,
+        "text" : " This"
+      },
+      {
+        "end" : 21.48,
+        "start" : 21.36,
+        "text" : " is"
+      },
+      {
+        "end" : 21.6,
+        "start" : 21.48,
+        "text" : " the"
+      },
+      {
+        "end" : 21.78,
+        "start" : 21.6,
+        "text" : " letter"
+      },
+      {
+        "end" : 22.26,
+        "start" : 21.78,
+        "text" : " B"
+      },
+      {
+        "end" : 22.62,
+        "start" : 22.26,
+        "text" : " capital"
+      },
+      {
+        "end" : 23.28,
+        "start" : 22.62,
+        "text" : " B,"
+      },
+      {
+        "end" : 23.46,
+        "start" : 23.28,
+        "text" : " and"
+      },
+      {
+        "end" : 24.24,
+        "start" : 23.46,
+        "text" : " lowercase."
+      }
+    ]
+  },
+  {
+    "end" : 25.74,
+    "start" : 24.3,
+    "text" : " BB is football.",
+    "words" : [
+      {
+        "end" : 24.96,
+        "start" : 24.3,
+        "text" : " BB"
+      },
+      {
+        "end" : 25.08,
+        "start" : 24.96,
+        "text" : " is"
+      },
+      {
+        "end" : 25.68,
+        "start" : 25.08,
+        "text" : " football."
+      }
+    ]
+  },
+  {
+    "end" : 27,
+    "start" : 25.74,
+    "text" : " Can you say ball?",
+    "words" : [
+      {
+        "end" : 25.98,
+        "start" : 25.74,
+        "text" : " Can"
+      },
+      {
+        "end" : 26.1,
+        "start" : 25.98,
+        "text" : " you"
+      },
+      {
+        "end" : 26.22,
+        "start" : 26.1,
+        "text" : " say"
+      },
+      {
+        "end" : 26.88,
+        "start" : 26.22,
+        "text" : " ball?"
+      }
+    ]
+  },
+  {
+    "end" : 29.58,
+    "start" : 27,
+    "text" : " Ball? B is for ball?",
+    "words" : [
+      {
+        "end" : 28.26,
+        "start" : 27,
+        "text" : " Ball?"
+      },
+      {
+        "end" : 28.74,
+        "start" : 28.26,
+        "text" : " B"
+      },
+      {
+        "end" : 28.98,
+        "start" : 28.74,
+        "text" : " is"
+      },
+      {
+        "end" : 29.1,
+        "start" : 28.98,
+        "text" : " for"
+      },
+      {
+        "end" : 29.52,
+        "start" : 29.1,
+        "text" : " ball?"
+      }
+    ]
+  },
+  {
+    "end" : 31.26,
+    "start" : 29.58,
+    "text" : " Let's say B together.",
+    "words" : [
+      {
+        "end" : 30.36,
+        "start" : 29.58,
+        "text" : " Let's"
+      },
+      {
+        "end" : 30.42,
+        "start" : 30.36,
+        "text" : " say"
+      },
+      {
+        "end" : 30.72,
+        "start" : 30.42,
+        "text" : " B"
+      },
+      {
+        "end" : 31.14,
+        "start" : 30.72,
+        "text" : " together."
+      }
+    ]
+  },
+  {
+    "end" : 34.38,
+    "start" : 31.5,
+    "text" : " This is the letter C, capital C.",
+    "words" : [
+      {
+        "end" : 32.76,
+        "start" : 31.5,
+        "text" : " This"
+      },
+      {
+        "end" : 32.94,
+        "start" : 32.76,
+        "text" : " is"
+      },
+      {
+        "end" : 33.06,
+        "start" : 32.94,
+        "text" : " the"
+      },
+      {
+        "end" : 33.18,
+        "start" : 33.06,
+        "text" : " letter"
+      },
+      {
+        "end" : 33.72,
+        "start" : 33.18,
+        "text" : " C,"
+      },
+      {
+        "end" : 33.84,
+        "start" : 33.72,
+        "text" : " capital"
+      },
+      {
+        "end" : 34.32,
+        "start" : 33.84,
+        "text" : " C."
+      }
+    ]
+  },
+  {
+    "end" : 36.9,
+    "start" : 34.38,
+    "text" : " And lowercase, cc is for cat.",
+    "words" : [
+      {
+        "end" : 34.8,
+        "start" : 34.38,
+        "text" : " And"
+      },
+      {
+        "end" : 35.52,
+        "start" : 34.8,
+        "text" : " lowercase,"
+      },
+      {
+        "end" : 36.18,
+        "start" : 35.52,
+        "text" : " cc"
+      },
+      {
+        "end" : 36.36,
+        "start" : 36.18,
+        "text" : " is"
+      },
+      {
+        "end" : 36.48,
+        "start" : 36.36,
+        "text" : " for"
+      },
+      {
+        "end" : 36.84,
+        "start" : 36.48,
+        "text" : " cat."
+      }
+    ]
+  },
+  {
+    "end" : 40.68,
+    "start" : 36.9,
+    "text" : " Can you say cat? Cat, C is for cat.",
+    "words" : [
+      {
+        "end" : 37.32,
+        "start" : 36.9,
+        "text" : " Can"
+      },
+      {
+        "end" : 37.44,
+        "start" : 37.32,
+        "text" : " you"
+      },
+      {
+        "end" : 37.56,
+        "start" : 37.44,
+        "text" : " say"
+      },
+      {
+        "end" : 38.1,
+        "start" : 37.56,
+        "text" : " cat?"
+      },
+      {
+        "end" : 39.36,
+        "start" : 38.1,
+        "text" : " Cat,"
+      },
+      {
+        "end" : 39.9,
+        "start" : 39.36,
+        "text" : " C"
+      },
+      {
+        "end" : 40.14,
+        "start" : 39.9,
+        "text" : " is"
+      },
+      {
+        "end" : 40.26,
+        "start" : 40.14,
+        "text" : " for"
+      },
+      {
+        "end" : 40.62,
+        "start" : 40.26,
+        "text" : " cat."
+      }
+    ]
+  },
+  {
+    "end" : 42.6,
+    "start" : 40.68,
+    "text" : " Let's say see together.",
+    "words" : [
+      {
+        "end" : 41.58,
+        "start" : 40.68,
+        "text" : " Let's"
+      },
+      {
+        "end" : 41.64,
+        "start" : 41.58,
+        "text" : " say"
+      },
+      {
+        "end" : 41.94,
+        "start" : 41.64,
+        "text" : " see"
+      },
+      {
+        "end" : 42.48,
+        "start" : 41.94,
+        "text" : " together."
+      }
+    ]
+  },
+  {
+    "end" : 46.8,
+    "start" : 42.78,
+    "text" : " This is the letter D, capital D, and lowercase.",
+    "words" : [
+      {
+        "end" : 44.04,
+        "start" : 42.78,
+        "text" : " This"
+      },
+      {
+        "end" : 44.16,
+        "start" : 44.04,
+        "text" : " is"
+      },
+      {
+        "end" : 44.28,
+        "start" : 44.16,
+        "text" : " the"
+      },
+      {
+        "end" : 44.4,
+        "start" : 44.28,
+        "text" : " letter"
+      },
+      {
+        "end" : 44.94,
+        "start" : 44.4,
+        "text" : " D,"
+      },
+      {
+        "end" : 45.12,
+        "start" : 44.94,
+        "text" : " capital"
+      },
+      {
+        "end" : 45.6,
+        "start" : 45.12,
+        "text" : " D,"
+      },
+      {
+        "end" : 46.14,
+        "start" : 45.6,
+        "text" : " and"
+      },
+      {
+        "end" : 46.68,
+        "start" : 46.14,
+        "text" : " lowercase."
+      }
+    ]
+  },
+  {
+    "end" : 48.12,
+    "start" : 46.8,
+    "text" : " DD is for dog.",
+    "words" : [
+      {
+        "end" : 47.46,
+        "start" : 46.8,
+        "text" : " DD"
+      },
+      {
+        "end" : 47.64,
+        "start" : 47.46,
+        "text" : " is"
+      },
+      {
+        "end" : 47.7,
+        "start" : 47.64,
+        "text" : " for"
+      },
+      {
+        "end" : 48.06,
+        "start" : 47.7,
+        "text" : " dog."
+      }
+    ]
+  },
+  {
+    "end" : 51.48,
+    "start" : 48.12,
+    "text" : " Can you say dog? Dog, D is for dog.",
+    "words" : [
+      {
+        "end" : 48.36,
+        "start" : 48.12,
+        "text" : " Can"
+      },
+      {
+        "end" : 48.48,
+        "start" : 48.36,
+        "text" : " you"
+      },
+      {
+        "end" : 48.6,
+        "start" : 48.48,
+        "text" : " say"
+      },
+      {
+        "end" : 49.14,
+        "start" : 48.6,
+        "text" : " dog?"
+      },
+      {
+        "end" : 50.34,
+        "start" : 49.14,
+        "text" : " Dog,"
+      },
+      {
+        "end" : 50.64,
+        "start" : 50.34,
+        "text" : " D"
+      },
+      {
+        "end" : 50.88,
+        "start" : 50.64,
+        "text" : " is"
+      },
+      {
+        "end" : 51.06,
+        "start" : 50.88,
+        "text" : " for"
+      },
+      {
+        "end" : 51.36,
+        "start" : 51.06,
+        "text" : " dog."
+      }
+    ]
+  },
+  {
+    "end" : 53.16,
+    "start" : 51.48,
+    "text" : " Let's say D together.",
+    "words" : [
+      {
+        "end" : 52.32,
+        "start" : 51.48,
+        "text" : " Let's"
+      },
+      {
+        "end" : 52.38,
+        "start" : 52.32,
+        "text" : " say"
+      },
+      {
+        "end" : 52.62,
+        "start" : 52.38,
+        "text" : " D"
+      },
+      {
+        "end" : 53.1,
+        "start" : 52.62,
+        "text" : " together."
+      }
+    ]
+  },
+  {
+    "end" : 58.98,
+    "start" : 53.64,
+    "text" : " This is the letter E capital E, and lowercase EE is for elephant.",
+    "words" : [
+      {
+        "end" : 54.9,
+        "start" : 53.64,
+        "text" : " This"
+      },
+      {
+        "end" : 55.02,
+        "start" : 54.9,
+        "text" : " is"
+      },
+      {
+        "end" : 55.14,
+        "start" : 55.02,
+        "text" : " the"
+      },
+      {
+        "end" : 55.26,
+        "start" : 55.14,
+        "text" : " letter"
+      },
+      {
+        "end" : 55.68,
+        "start" : 55.26,
+        "text" : " E"
+      },
+      {
+        "end" : 56.04,
+        "start" : 55.68,
+        "text" : " capital"
+      },
+      {
+        "end" : 56.58,
+        "start" : 56.04,
+        "text" : " E,"
+      },
+      {
+        "end" : 56.94,
+        "start" : 56.58,
+        "text" : " and"
+      },
+      {
+        "end" : 57.66,
+        "start" : 56.94,
+        "text" : " lowercase"
+      },
+      {
+        "end" : 58.26,
+        "start" : 57.66,
+        "text" : " EE"
+      },
+      {
+        "end" : 58.44,
+        "start" : 58.26,
+        "text" : " is"
+      },
+      {
+        "end" : 58.56,
+        "start" : 58.44,
+        "text" : " for"
+      },
+      {
+        "end" : 58.92,
+        "start" : 58.56,
+        "text" : " elephant."
+      }
+    ]
+  },
+  {
+    "end" : 62.46,
+    "start" : 58.98,
+    "text" : " Can you say elephant? Elephant.",
+    "words" : [
+      {
+        "end" : 59.7,
+        "start" : 58.98,
+        "text" : " Can"
+      },
+      {
+        "end" : 59.88,
+        "start" : 59.7,
+        "text" : " you"
+      },
+      {
+        "end" : 60,
+        "start" : 59.88,
+        "text" : " say"
+      },
+      {
+        "end" : 60.66,
+        "start" : 60,
+        "text" : " elephant?"
+      },
+      {
+        "end" : 62.4,
+        "start" : 60.66,
+        "text" : " Elephant."
+      }
+    ]
+  },
+  {
+    "end" : 63.78,
+    "start" : 62.46,
+    "text" : " He is for elephant.",
+    "words" : [
+      {
+        "end" : 62.94,
+        "start" : 62.46,
+        "text" : " He"
+      },
+      {
+        "end" : 63.18,
+        "start" : 62.94,
+        "text" : " is"
+      },
+      {
+        "end" : 63.3,
+        "start" : 63.18,
+        "text" : " for"
+      },
+      {
+        "end" : 63.72,
+        "start" : 63.3,
+        "text" : " elephant."
+      }
+    ]
+  },
+  {
+    "end" : 65.82,
+    "start" : 63.78,
+    "text" : " Let's say E together.",
+    "words" : [
+      {
+        "end" : 64.86,
+        "start" : 63.78,
+        "text" : " Let's"
+      },
+      {
+        "end" : 64.92,
+        "start" : 64.86,
+        "text" : " say"
+      },
+      {
+        "end" : 65.34,
+        "start" : 64.92,
+        "text" : " E"
+      },
+      {
+        "end" : 65.76,
+        "start" : 65.34,
+        "text" : " together."
+      }
+    ]
+  },
+  {
+    "end" : 71.82,
+    "start" : 66.18,
+    "text" : " This is the letter F, capital F, and lowercase, FFF for fish.",
+    "words" : [
+      {
+        "end" : 67.44,
+        "start" : 66.18,
+        "text" : " This"
+      },
+      {
+        "end" : 67.56,
+        "start" : 67.44,
+        "text" : " is"
+      },
+      {
+        "end" : 67.74,
+        "start" : 67.56,
+        "text" : " the"
+      },
+      {
+        "end" : 67.86,
+        "start" : 67.74,
+        "text" : " letter"
+      },
+      {
+        "end" : 68.46,
+        "start" : 67.86,
+        "text" : " F,"
+      },
+      {
+        "end" : 68.64,
+        "start" : 68.46,
+        "text" : " capital"
+      },
+      {
+        "end" : 69.36,
+        "start" : 68.64,
+        "text" : " F,"
+      },
+      {
+        "end" : 69.66,
+        "start" : 69.36,
+        "text" : " and"
+      },
+      {
+        "end" : 70.38,
+        "start" : 69.66,
+        "text" : " lowercase,"
+      },
+      {
+        "end" : 71.28,
+        "start" : 70.38,
+        "text" : " FFF"
+      },
+      {
+        "end" : 71.46,
+        "start" : 71.28,
+        "text" : " for"
+      },
+      {
+        "end" : 71.76,
+        "start" : 71.46,
+        "text" : " fish."
+      }
+    ]
+  },
+  {
+    "end" : 73.32,
+    "start" : 71.82,
+    "text" : " Can you say fish?",
+    "words" : [
+      {
+        "end" : 72.48,
+        "start" : 71.82,
+        "text" : " Can"
+      },
+      {
+        "end" : 72.6,
+        "start" : 72.48,
+        "text" : " you"
+      },
+      {
+        "end" : 72.72,
+        "start" : 72.6,
+        "text" : " say"
+      },
+      {
+        "end" : 73.2,
+        "start" : 72.72,
+        "text" : " fish?"
+      }
+    ]
+  },
+  {
+    "end" : 74.58,
+    "start" : 73.32,
+    "text" : " Fish?",
+    "words" : [
+      {
+        "end" : 74.46,
+        "start" : 73.32,
+        "text" : " Fish?"
+      }
+    ]
+  },
+  {
+    "end" : 75.84,
+    "start" : 74.58,
+    "text" : " F is for fish.",
+    "words" : [
+      {
+        "end" : 75.18,
+        "start" : 74.58,
+        "text" : " F"
+      },
+      {
+        "end" : 75.42,
+        "start" : 75.18,
+        "text" : " is"
+      },
+      {
+        "end" : 75.54,
+        "start" : 75.42,
+        "text" : " for"
+      },
+      {
+        "end" : 75.78,
+        "start" : 75.54,
+        "text" : " fish."
+      }
+    ]
+  },
+  {
+    "end" : 78.24,
+    "start" : 75.84,
+    "text" : " Let's say F together.",
+    "words" : [
+      {
+        "end" : 77.16,
+        "start" : 75.84,
+        "text" : " Let's"
+      },
+      {
+        "end" : 77.28,
+        "start" : 77.16,
+        "text" : " say"
+      },
+      {
+        "end" : 77.64,
+        "start" : 77.28,
+        "text" : " F"
+      },
+      {
+        "end" : 78.18,
+        "start" : 77.64,
+        "text" : " together."
+      }
+    ]
+  },
+  {
+    "end" : 81,
+    "start" : 78.3,
+    "text" : " Let's say our six letters together.",
+    "words" : [
+      {
+        "end" : 79.74,
+        "start" : 78.3,
+        "text" : " Let's"
+      },
+      {
+        "end" : 79.86,
+        "start" : 79.74,
+        "text" : " say"
+      },
+      {
+        "end" : 80.1,
+        "start" : 79.86,
+        "text" : " our"
+      },
+      {
+        "end" : 80.28,
+        "start" : 80.1,
+        "text" : " six"
+      },
+      {
+        "end" : 80.64,
+        "start" : 80.28,
+        "text" : " letters"
+      },
+      {
+        "end" : 80.88,
+        "start" : 80.64,
+        "text" : " together."
+      }
+    ]
+  },
+  {
+    "end" : 82.92,
+    "start" : 81,
+    "text" : " A B, C, D, E, F.",
+    "words" : [
+      {
+        "end" : 81.72,
+        "start" : 81,
+        "text" : " A"
+      },
+      {
+        "end" : 82.08,
+        "start" : 81.72,
+        "text" : " B,"
+      },
+      {
+        "end" : 82.26,
+        "start" : 82.08,
+        "text" : " C,"
+      },
+      {
+        "end" : 82.5,
+        "start" : 82.26,
+        "text" : " D,"
+      },
+      {
+        "end" : 82.62,
+        "start" : 82.5,
+        "text" : " E,"
+      },
+      {
+        "end" : 82.8,
+        "start" : 82.62,
+        "text" : " F."
+      }
+    ]
+  },
+  {
+    "end" : 84.54,
+    "start" : 82.92,
+    "text" : " Now it's your turn.",
+    "words" : [
+      {
+        "end" : 83.7,
+        "start" : 82.92,
+        "text" : " Now"
+      },
+      {
+        "end" : 84,
+        "start" : 83.7,
+        "text" : " it's"
+      },
+      {
+        "end" : 84.06,
+        "start" : 84,
+        "text" : " your"
+      },
+      {
+        "end" : 84.48,
+        "start" : 84.06,
+        "text" : " turn."
+      }
+    ]
+  },
+  {
+    "end" : 86.7,
+    "start" : 84.84,
+    "text" : " Great practicing.",
+    "words" : [
+      {
+        "end" : 86.1,
+        "start" : 84.84,
+        "text" : " Great"
+      },
+      {
+        "end" : 86.64,
+        "start" : 86.1,
+        "text" : " practicing."
+      }
+    ]
+  },
+  {
+    "end" : 89.1,
+    "start" : 86.7,
+    "text" : " Now let's play a little guessing game.",
+    "words" : [
+      {
+        "end" : 87.66,
+        "start" : 86.7,
+        "text" : " Now"
+      },
+      {
+        "end" : 88.02,
+        "start" : 87.66,
+        "text" : " let's"
+      },
+      {
+        "end" : 88.08,
+        "start" : 88.02,
+        "text" : " play"
+      },
+      {
+        "end" : 88.44,
+        "start" : 88.08,
+        "text" : " a"
+      },
+      {
+        "end" : 88.5,
+        "start" : 88.44,
+        "text" : " little"
+      },
+      {
+        "end" : 88.74,
+        "start" : 88.5,
+        "text" : " guessing"
+      },
+      {
+        "end" : 88.98,
+        "start" : 88.74,
+        "text" : " game."
+      }
+    ]
+  },
+  {
+    "end" : 91.2,
+    "start" : 89.1,
+    "text" : " Which letter starts cat?",
+    "words" : [
+      {
+        "end" : 90.18,
+        "start" : 89.1,
+        "text" : " Which"
+      },
+      {
+        "end" : 90.42,
+        "start" : 90.18,
+        "text" : " letter"
+      },
+      {
+        "end" : 90.66,
+        "start" : 90.42,
+        "text" : " starts"
+      },
+      {
+        "end" : 91.08,
+        "start" : 90.66,
+        "text" : " cat?"
+      }
+    ]
+  },
+  {
+    "end" : 95.28,
+    "start" : 91.2,
+    "text" : " A, C, or F, point to it, and say the letter.",
+    "words" : [
+      {
+        "end" : 92.34,
+        "start" : 91.2,
+        "text" : " A,"
+      },
+      {
+        "end" : 92.64,
+        "start" : 92.34,
+        "text" : " C,"
+      },
+      {
+        "end" : 92.76,
+        "start" : 92.64,
+        "text" : " or"
+      },
+      {
+        "end" : 93.18,
+        "start" : 92.76,
+        "text" : " F,"
+      },
+      {
+        "end" : 93.6,
+        "start" : 93.18,
+        "text" : " point"
+      },
+      {
+        "end" : 93.84,
+        "start" : 93.6,
+        "text" : " to"
+      },
+      {
+        "end" : 94.02,
+        "start" : 93.84,
+        "text" : " it,"
+      },
+      {
+        "end" : 94.56,
+        "start" : 94.02,
+        "text" : " and"
+      },
+      {
+        "end" : 94.74,
+        "start" : 94.56,
+        "text" : " say"
+      },
+      {
+        "end" : 94.92,
+        "start" : 94.74,
+        "text" : " the"
+      },
+      {
+        "end" : 95.16,
+        "start" : 94.92,
+        "text" : " letter."
+      }
+    ]
+  },
+  {
+    "end" : 97.68,
+    "start" : 95.58,
+    "text" : " It's C.",
+    "words" : [
+      {
+        "end" : 97.02,
+        "start" : 95.58,
+        "text" : " It's"
+      },
+      {
+        "end" : 97.56,
+        "start" : 97.02,
+        "text" : " C."
+      }
+    ]
+  },
+  {
+    "end" : 98.94,
+    "start" : 97.68,
+    "text" : " C is for cat.",
+    "words" : [
+      {
+        "end" : 97.98,
+        "start" : 97.68,
+        "text" : " C"
+      },
+      {
+        "end" : 98.22,
+        "start" : 97.98,
+        "text" : " is"
+      },
+      {
+        "end" : 98.4,
+        "start" : 98.22,
+        "text" : " for"
+      },
+      {
+        "end" : 98.82,
+        "start" : 98.4,
+        "text" : " cat."
+      }
+    ]
+  },
+  {
+    "end" : 100.08,
+    "start" : 98.94,
+    "text" : " Well done for trying.",
+    "words" : [
+      {
+        "end" : 99.24,
+        "start" : 98.94,
+        "text" : " Well"
+      },
+      {
+        "end" : 99.48,
+        "start" : 99.24,
+        "text" : " done"
+      },
+      {
+        "end" : 99.66,
+        "start" : 99.48,
+        "text" : " for"
+      },
+      {
+        "end" : 99.96,
+        "start" : 99.66,
+        "text" : " trying."
+      }
+    ]
+  },
+  {
+    "end" : 106.5,
+    "start" : 100.08,
+    "text" : " Which letter starts elephant, B, T, or E, point to it, and say the letter.",
+    "words" : [
+      {
+        "end" : 101.28,
+        "start" : 100.08,
+        "text" : " Which"
+      },
+      {
+        "end" : 101.58,
+        "start" : 101.28,
+        "text" : " letter"
+      },
+      {
+        "end" : 101.88,
+        "start" : 101.58,
+        "text" : " starts"
+      },
+      {
+        "end" : 102.48,
+        "start" : 101.88,
+        "text" : " elephant,"
+      },
+      {
+        "end" : 103.38,
+        "start" : 102.48,
+        "text" : " B,"
+      },
+      {
+        "end" : 103.8,
+        "start" : 103.38,
+        "text" : " T,"
+      },
+      {
+        "end" : 103.92,
+        "start" : 103.8,
+        "text" : " or"
+      },
+      {
+        "end" : 104.34,
+        "start" : 103.92,
+        "text" : " E,"
+      },
+      {
+        "end" : 104.7,
+        "start" : 104.34,
+        "text" : " point"
+      },
+      {
+        "end" : 104.94,
+        "start" : 104.7,
+        "text" : " to"
+      },
+      {
+        "end" : 105.18,
+        "start" : 104.94,
+        "text" : " it,"
+      },
+      {
+        "end" : 105.72,
+        "start" : 105.18,
+        "text" : " and"
+      },
+      {
+        "end" : 105.96,
+        "start" : 105.72,
+        "text" : " say"
+      },
+      {
+        "end" : 106.2,
+        "start" : 105.96,
+        "text" : " the"
+      },
+      {
+        "end" : 106.44,
+        "start" : 106.2,
+        "text" : " letter."
+      }
+    ]
+  },
+  {
+    "end" : 109.98,
+    "start" : 106.86,
+    "text" : " It's E, E is for elephant.",
+    "words" : [
+      {
+        "end" : 108.3,
+        "start" : 106.86,
+        "text" : " It's"
+      },
+      {
+        "end" : 108.84,
+        "start" : 108.3,
+        "text" : " E,"
+      },
+      {
+        "end" : 109.08,
+        "start" : 108.84,
+        "text" : " E"
+      },
+      {
+        "end" : 109.26,
+        "start" : 109.08,
+        "text" : " is"
+      },
+      {
+        "end" : 109.38,
+        "start" : 109.26,
+        "text" : " for"
+      },
+      {
+        "end" : 109.92,
+        "start" : 109.38,
+        "text" : " elephant."
+      }
+    ]
+  },
+  {
+    "end" : 111.54,
+    "start" : 109.98,
+    "text" : " Well done for trying.",
+    "words" : [
+      {
+        "end" : 110.4,
+        "start" : 109.98,
+        "text" : " Well"
+      },
+      {
+        "end" : 110.64,
+        "start" : 110.4,
+        "text" : " done"
+      },
+      {
+        "end" : 110.88,
+        "start" : 110.64,
+        "text" : " for"
+      },
+      {
+        "end" : 111.42,
+        "start" : 110.88,
+        "text" : " trying."
+      }
+    ]
+  },
+  {
+    "end" : 113.64,
+    "start" : 111.54,
+    "text" : " Which weather starts for?",
+    "words" : [
+      {
+        "end" : 112.44,
+        "start" : 111.54,
+        "text" : " Which"
+      },
+      {
+        "end" : 112.74,
+        "start" : 112.44,
+        "text" : " weather"
+      },
+      {
+        "end" : 113.16,
+        "start" : 112.74,
+        "text" : " starts"
+      },
+      {
+        "end" : 113.58,
+        "start" : 113.16,
+        "text" : " for?"
+      }
+    ]
+  },
+  {
+    "end" : 115.2,
+    "start" : 113.64,
+    "text" : " FB, what a.",
+    "words" : [
+      {
+        "end" : 114.66,
+        "start" : 113.64,
+        "text" : " FB,"
+      },
+      {
+        "end" : 114.84,
+        "start" : 114.66,
+        "text" : " what"
+      },
+      {
+        "end" : 115.14,
+        "start" : 114.84,
+        "text" : " a."
+      }
+    ]
+  },
+  {
+    "end" : 117.72,
+    "start" : 115.2,
+    "text" : " Point to it, and say the letter.",
+    "words" : [
+      {
+        "end" : 115.86,
+        "start" : 115.2,
+        "text" : " Point"
+      },
+      {
+        "end" : 115.98,
+        "start" : 115.86,
+        "text" : " to"
+      },
+      {
+        "end" : 116.22,
+        "start" : 115.98,
+        "text" : " it,"
+      },
+      {
+        "end" : 116.88,
+        "start" : 116.22,
+        "text" : " and"
+      },
+      {
+        "end" : 117.18,
+        "start" : 116.88,
+        "text" : " say"
+      },
+      {
+        "end" : 117.36,
+        "start" : 117.18,
+        "text" : " the"
+      },
+      {
+        "end" : 117.66,
+        "start" : 117.36,
+        "text" : " letter."
+      }
+    ]
+  },
+  {
+    "end" : 121.02,
+    "start" : 117.84,
+    "text" : " It's B, B is for ball.",
+    "words" : [
+      {
+        "end" : 119.28,
+        "start" : 117.84,
+        "text" : " It's"
+      },
+      {
+        "end" : 119.76,
+        "start" : 119.28,
+        "text" : " B,"
+      },
+      {
+        "end" : 120.12,
+        "start" : 119.76,
+        "text" : " B"
+      },
+      {
+        "end" : 120.36,
+        "start" : 120.12,
+        "text" : " is"
+      },
+      {
+        "end" : 120.54,
+        "start" : 120.36,
+        "text" : " for"
+      },
+      {
+        "end" : 120.96,
+        "start" : 120.54,
+        "text" : " ball."
+      }
+    ]
+  },
+  {
+    "end" : 122.82,
+    "start" : 121.02,
+    "text" : " Well done for train.",
+    "words" : [
+      {
+        "end" : 121.68,
+        "start" : 121.02,
+        "text" : " Well"
+      },
+      {
+        "end" : 121.92,
+        "start" : 121.68,
+        "text" : " done"
+      },
+      {
+        "end" : 122.1,
+        "start" : 121.92,
+        "text" : " for"
+      },
+      {
+        "end" : 122.7,
+        "start" : 122.1,
+        "text" : " train."
+      }
+    ]
+  },
+  {
+    "end" : 127.02,
+    "start" : 122.82,
+    "text" : " You practiced A, B, C, D, E, and F.",
+    "words" : [
+      {
+        "end" : 124.08,
+        "start" : 122.82,
+        "text" : " You"
+      },
+      {
+        "end" : 124.62,
+        "start" : 124.08,
+        "text" : " practiced"
+      },
+      {
+        "end" : 125.22,
+        "start" : 124.62,
+        "text" : " A,"
+      },
+      {
+        "end" : 125.46,
+        "start" : 125.22,
+        "text" : " B,"
+      },
+      {
+        "end" : 125.82,
+        "start" : 125.46,
+        "text" : " C,"
+      },
+      {
+        "end" : 126.12,
+        "start" : 125.82,
+        "text" : " D,"
+      },
+      {
+        "end" : 126.36,
+        "start" : 126.12,
+        "text" : " E,"
+      },
+      {
+        "end" : 126.48,
+        "start" : 126.36,
+        "text" : " and"
+      },
+      {
+        "end" : 126.9,
+        "start" : 126.48,
+        "text" : " F."
+      }
+    ]
+  },
+  {
+    "end" : 129.12,
+    "start" : 127.02,
+    "text" : " Tell a grown up your favorite word.",
+    "words" : [
+      {
+        "end" : 127.86,
+        "start" : 127.02,
+        "text" : " Tell"
+      },
+      {
+        "end" : 128.1,
+        "start" : 127.86,
+        "text" : " a"
+      },
+      {
+        "end" : 128.34,
+        "start" : 128.1,
+        "text" : " grown"
+      },
+      {
+        "end" : 128.46,
+        "start" : 128.34,
+        "text" : " up"
+      },
+      {
+        "end" : 128.58,
+        "start" : 128.46,
+        "text" : " your"
+      },
+      {
+        "end" : 128.7,
+        "start" : 128.58,
+        "text" : " favorite"
+      },
+      {
+        "end" : 129.06,
+        "start" : 128.7,
+        "text" : " word."
+      }
+    ]
+  },
+  {
+    "end" : 131.22,
+    "start" : 129.48,
+    "text" : " See you next time.",
+    "words" : [
+      {
+        "end" : 130.74,
+        "start" : 129.48,
+        "text" : " See"
+      },
+      {
+        "end" : 130.86,
+        "start" : 130.74,
+        "text" : " you"
+      },
+      {
+        "end" : 130.98,
+        "start" : 130.86,
+        "text" : " next"
+      },
+      {
+        "end" : 131.16,
+        "start" : 130.98,
+        "text" : " time."
+      }
+    ]
+  }
+]

@@ -1,0 +1,123 @@
+1
+00:00:00,000 --> 00:00:11,687
+Hello, little explorer! Ready for ten new letters? Today we'll learn G, H, I, J, K, L, M, N, O, and P. Look, listen, and say the words with me!
+
+2
+00:00:11,887 --> 00:00:18,839
+This is the letter G. Capital G and lowercase g. G is for giraffe. Can you say giraffe?
+
+3
+00:00:20,839 --> 00:00:24,698
+Giraffe! G is for giraffe. Let's say G together!
+
+4
+00:00:24,898 --> 00:00:31,391
+This is the letter H. Capital H and lowercase h. H is for hat. Can you say hat?
+
+5
+00:00:33,391 --> 00:00:36,793
+Hat! H is for hat. Let's say H together!
+
+6
+00:00:36,993 --> 00:00:43,906
+This is the letter I. Capital I and lowercase i. I is for ice cream. Can you say ice cream?
+
+7
+00:00:45,906 --> 00:00:49,801
+Ice cream! I is for ice cream. Let's say I together!
+
+8
+00:00:50,001 --> 00:00:56,593
+This is the letter J. Capital J and lowercase j. J is for juice. Can you say juice?
+
+9
+00:00:58,593 --> 00:01:02,208
+Juice! J is for juice. Let's say J together!
+
+10
+00:01:02,408 --> 00:01:08,704
+This is the letter K. Capital K and lowercase k. K is for kite. Can you say kite?
+
+11
+00:01:10,704 --> 00:01:14,212
+Kite! K is for kite. Let's say K together!
+
+12
+00:01:14,412 --> 00:01:20,909
+This is the letter L. Capital L and lowercase l. L is for lion. Can you say lion?
+
+13
+00:01:22,909 --> 00:01:26,410
+Lion! L is for lion. Let's say L together!
+
+14
+00:01:26,610 --> 00:01:33,621
+This is the letter M. Capital M and lowercase m. M is for monkey. Can you say monkey?
+
+15
+00:01:35,621 --> 00:01:39,240
+Monkey! M is for monkey. Let's say M together!
+
+16
+00:01:39,440 --> 00:01:45,980
+This is the letter N. Capital N and lowercase n. N is for nest. Can you say nest?
+
+17
+00:01:47,980 --> 00:01:51,426
+Nest! N is for nest. Let's say N together!
+
+18
+00:01:51,626 --> 00:01:58,178
+This is the letter O. Capital O and lowercase o. O is for orange. Can you say orange?
+
+19
+00:02:00,178 --> 00:02:03,682
+Orange! O is for orange. Let's say O together!
+
+20
+00:02:03,882 --> 00:02:10,636
+This is the letter P. Capital P and lowercase p. P is for penguin. Can you say penguin?
+
+21
+00:02:12,636 --> 00:02:16,308
+Penguin! P is for penguin. Let's say P together!
+
+22
+00:02:16,508 --> 00:02:22,122
+Let's practice five letters at a time! G, H, I, J, K. Now you say them!
+
+23
+00:02:24,122 --> 00:02:27,606
+Wonderful! L, M, N, O, P. Your turn!
+
+24
+00:02:29,606 --> 00:02:33,074
+Great practicing! Now let's play a little guessing game.
+
+25
+00:02:33,274 --> 00:02:39,266
+Which letter starts monkey? G, M, or P? Point to your answer and say the letter!
+
+26
+00:02:42,266 --> 00:02:45,980
+It's M! M is for monkey. Well done for trying!
+
+27
+00:02:46,180 --> 00:02:51,931
+Which letter starts kite? K, N, or H? Point to your answer and say the letter!
+
+28
+00:02:54,931 --> 00:02:57,995
+It's K! K is for kite. Keep exploring!
+
+29
+00:02:58,195 --> 00:03:03,987
+Which letter starts penguin? I, J, or P? Point to your answer and say the letter!
+
+30
+00:03:06,987 --> 00:03:10,526
+It's P! P is for penguin. Great practicing!
+
+31
+00:03:10,726 --> 00:03:23,846
+You practiced ten new letters! G, H, I, J, K, L, M, N, O, and P. Give yourself a little clap! Tell a grown-up your favorite word. See you next time, little explorer!

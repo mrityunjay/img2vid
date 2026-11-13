@@ -1,0 +1,20 @@
+{
+  "source_name": "A is for Apple.mp3",
+  "source_sha256": "1142d1aa8c6d116d29fd9f1a48723e85c9464e63a249c8eb132321c3c7dbbb1d",
+  "audio_duration": 133.52,
+  "alignment_source": "Installed macOS SpeechTranscriber word timestamps, checked against the MP3's embedded lesson lyrics",
+  "sections": [
+    {"start": 0.0},
+    {"start": 7.8, "question_end": 14.82, "response_start": 15.0},
+    {"start": 20.1, "question_end": 26.88, "response_start": 27.0},
+    {"start": 31.5, "question_end": 38.1, "response_start": 38.1},
+    {"start": 42.78, "question_end": 49.14, "response_start": 49.14},
+    {"start": 53.64, "question_end": 60.66, "response_start": 60.66},
+    {"start": 66.18, "question_end": 73.2, "response_start": 73.32},
+    {"start": 78.3, "question_end": 84.54, "response_start": 84.84},
+    {"start": 89.1, "question_end": 95.28, "response_start": 95.58, "reveal_start": 97.02},
+    {"start": 100.08, "question_end": 106.5, "response_start": 106.86, "reveal_start": 108.3},
+    {"start": 111.54, "question_end": 117.72, "response_start": 117.84, "reveal_start": 119.28},
+    {"start": 122.82}
+  ]
+}

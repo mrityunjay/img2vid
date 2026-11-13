@@ -1,0 +1,355 @@
+{
+  "fps": 24,
+  "duration": 133.54166666666666,
+  "audio_duration": 133.52,
+  "sections": [
+    {
+      "kind": "intro",
+      "heading": "Six letters. A big adventure!",
+      "badge": "AGES 3–5",
+      "card_title": "Hello, explorer!",
+      "image_index": 0,
+      "start": 0.0,
+      "duration": 7.791666666666667,
+      "end": 7.791666666666667
+    },
+    {
+      "letter": "A",
+      "word": "Apple",
+      "color": "#BC343E",
+      "image_prompt": "One large fresh red apple with a short brown stem and one small green leaf, standing upright on the floor. Glossy natural red skin, simple appealing shape, gentle highlight. This is an ordinary apple without a face, arms or legs. The apple is the only object in the scene.",
+      "motion_prompt": "A single red apple rests on a cream studio floor. Its small green leaf gently sways once while the apple stays still. Preserve the exact apple shape, stem, colors and background. Static camera. No text, new objects or face.",
+      "kind": "letter",
+      "heading": "Meet the letter A",
+      "badge": "LETTER 1 OF 6",
+      "image_index": 0,
+      "start": 7.791666666666667,
+      "duration": 12.291666666666664,
+      "end": 20.083333333333332
+    },
+    {
+      "letter": "B",
+      "word": "Ball",
+      "color": "#1764A7",
+      "image_prompt": "One round colorful rubber play ball divided into broad blue, yellow and coral-red curved panels. The ball rests on the floor with a soft shadow. Smooth friendly toy material, no writing or logo, no face, arms or legs. Only one ball, completely visible.",
+      "motion_prompt": "One colorful rubber ball gently rocks a little to one side and settles on the cream floor. Preserve its round shape and blue, yellow and coral-red panels. Static camera, no extra balls, no text, no change of background.",
+      "kind": "letter",
+      "heading": "Meet the letter B",
+      "badge": "LETTER 2 OF 6",
+      "image_index": 1,
+      "start": 20.083333333333332,
+      "duration": 11.416666666666668,
+      "end": 31.5
+    },
+    {
+      "letter": "C",
+      "word": "Cat",
+      "color": "#8C4CAD",
+      "image_prompt": "One adorable fluffy orange tabby kitten sitting upright, facing slightly toward the viewer, with two triangular ears, two bright green eyes, a small pink nose, four natural paws and one curled tail visible beside its body. Friendly relaxed closed-mouth smile. No clothes, collar, accessories or additional animals.",
+      "motion_prompt": "The seated orange kitten slowly blinks once and gently moves the tip of its curled tail. All four paws stay on the floor. Preserve its face, triangular ears, green eyes, fur pattern and proportions. Locked camera, no new animals or text.",
+      "kind": "letter",
+      "heading": "Meet the letter C",
+      "badge": "LETTER 3 OF 6",
+      "image_index": 2,
+      "start": 31.5,
+      "duration": 11.291666666666664,
+      "end": 42.791666666666664
+    },
+    {
+      "letter": "D",
+      "word": "Dog",
+      "color": "#217562",
+      "image_prompt": "One adorable golden-brown puppy sitting upright with two soft floppy ears, large gentle brown eyes, a dark round nose, four natural paws and one visible short tail. Friendly relaxed expression. Clearly a dog, distinct from a cat. No clothes, collar, accessories or other animals.",
+      "motion_prompt": "The golden-brown puppy sits with all paws steady and slowly wags its single tail. Its floppy ears and friendly face stay stable. Preserve its anatomy, fur color and background. Locked camera. No new animals, objects or text.",
+      "kind": "letter",
+      "heading": "Meet the letter D",
+      "badge": "LETTER 4 OF 6",
+      "image_index": 3,
+      "start": 42.791666666666664,
+      "duration": 10.833333333333336,
+      "end": 53.625
+    },
+    {
+      "letter": "E",
+      "word": "Elephant",
+      "color": "#9D4C16",
+      "image_prompt": "One adorable small gray baby elephant standing with all four sturdy feet visible, two large rounded ears, one long gently curved trunk, two expressive brown eyes and one short tail. Rounded natural elephant body, no tusks, friendly calm expression. The trunk is separate from the legs and clearly readable. No clothing or accessories.",
+      "motion_prompt": "The baby elephant stands still on four feet and gently sways its single trunk a few centimeters. Preserve the same two ears, four legs, gray skin and friendly face. Locked camera. No walking, extra limbs, new objects or text.",
+      "kind": "letter",
+      "heading": "Meet the letter E",
+      "badge": "LETTER 5 OF 6",
+      "image_index": 4,
+      "start": 53.625,
+      "duration": 12.541666666666671,
+      "end": 66.16666666666667
+    },
+    {
+      "letter": "F",
+      "word": "Fish",
+      "color": "#146D91",
+      "image_prompt": "One adorable orange goldfish viewed from the side with a slight turn toward the viewer, a rounded body, natural fins, one fan-shaped tail and a large friendly visible eye. Suspended in clear pale turquoise underwater space with a few tiny soft bubbles and gentle light rays. Entire fish visible, no bowl, no hooks, no legs, no other fish. Calm bright child-friendly underwater scene.",
+      "motion_prompt": "The single orange goldfish gently fans its tail and fins while hovering in the same place underwater. The background remains still. Preserve its body, eye, fins, colors and size. Locked camera, no additional fish, no text.",
+      "kind": "letter",
+      "heading": "Meet the letter F",
+      "badge": "LETTER 6 OF 6",
+      "image_index": 5,
+      "start": 66.16666666666667,
+      "duration": 12.125,
+      "end": 78.29166666666667
+    },
+    {
+      "kind": "recap",
+      "heading": "Say the letters with me!",
+      "badge": "LET'S REMEMBER",
+      "image_index": 2,
+      "card_title": "All six letters",
+      "start": 78.29166666666667,
+      "duration": 10.791666666666657,
+      "end": 89.08333333333333
+    },
+    {
+      "letter": "C",
+      "word": "Cat",
+      "color": "#8C4CAD",
+      "image_prompt": "One adorable fluffy orange tabby kitten sitting upright, facing slightly toward the viewer, with two triangular ears, two bright green eyes, a small pink nose, four natural paws and one curled tail visible beside its body. Friendly relaxed closed-mouth smile. No clothes, collar, accessories or additional animals.",
+      "motion_prompt": "The seated orange kitten slowly blinks once and gently moves the tip of its curled tail. All four paws stay on the floor. Preserve its face, triangular ears, green eyes, fur pattern and proportions. Locked camera, no new animals or text.",
+      "options": [
+        "A",
+        "C",
+        "F"
+      ],
+      "kind": "quiz",
+      "heading": "Let's play: find the letter!",
+      "badge": "GAME 1 OF 3",
+      "image_index": 2,
+      "start": 89.08333333333333,
+      "duration": 11.0,
+      "end": 100.08333333333333
+    },
+    {
+      "letter": "E",
+      "word": "Elephant",
+      "color": "#9D4C16",
+      "image_prompt": "One adorable small gray baby elephant standing with all four sturdy feet visible, two large rounded ears, one long gently curved trunk, two expressive brown eyes and one short tail. Rounded natural elephant body, no tusks, friendly calm expression. The trunk is separate from the legs and clearly readable. No clothing or accessories.",
+      "motion_prompt": "The baby elephant stands still on four feet and gently sways its single trunk a few centimeters. Preserve the same two ears, four legs, gray skin and friendly face. Locked camera. No walking, extra limbs, new objects or text.",
+      "options": [
+        "B",
+        "D",
+        "E"
+      ],
+      "kind": "quiz",
+      "heading": "Let's play: find the letter!",
+      "badge": "GAME 2 OF 3",
+      "image_index": 4,
+      "start": 100.08333333333333,
+      "duration": 11.458333333333343,
+      "end": 111.54166666666667
+    },
+    {
+      "letter": "B",
+      "word": "Ball",
+      "color": "#1764A7",
+      "image_prompt": "One round colorful rubber play ball divided into broad blue, yellow and coral-red curved panels. The ball rests on the floor with a soft shadow. Smooth friendly toy material, no writing or logo, no face, arms or legs. Only one ball, completely visible.",
+      "motion_prompt": "One colorful rubber ball gently rocks a little to one side and settles on the cream floor. Preserve its round shape and blue, yellow and coral-red panels. Static camera, no extra balls, no text, no change of background.",
+      "options": [
+        "F",
+        "B",
+        "A"
+      ],
+      "kind": "quiz",
+      "heading": "Let's play: find the letter!",
+      "badge": "GAME 3 OF 3",
+      "image_index": 1,
+      "start": 111.54166666666667,
+      "duration": 11.291666666666657,
+      "end": 122.83333333333333
+    },
+    {
+      "kind": "outro",
+      "heading": "You are an alphabet explorer!",
+      "badge": "WELL DONE",
+      "image_index": 5,
+      "card_title": "Keep exploring!",
+      "start": 122.83333333333333,
+      "duration": 10.708333333333329,
+      "end": 133.54166666666666
+    }
+  ],
+  "events": [
+    {
+      "image": "suno_overlays/000.png",
+      "start": 0.0,
+      "duration": 7.791666666666667,
+      "section": 0,
+      "phase": "talk"
+    },
+    {
+      "image": "suno_overlays/001.png",
+      "start": 7.791666666666667,
+      "duration": 7.208333333333333,
+      "section": 1,
+      "phase": "talk"
+    },
+    {
+      "image": "suno_overlays/002.png",
+      "start": 15.0,
+      "duration": 5.083333333333332,
+      "section": 1,
+      "phase": "answer"
+    },
+    {
+      "image": "suno_overlays/003.png",
+      "start": 20.083333333333332,
+      "duration": 6.916666666666668,
+      "section": 2,
+      "phase": "talk"
+    },
+    {
+      "image": "suno_overlays/004.png",
+      "start": 27.0,
+      "duration": 4.5,
+      "section": 2,
+      "phase": "answer"
+    },
+    {
+      "image": "suno_overlays/005.png",
+      "start": 31.5,
+      "duration": 6.583333333333336,
+      "section": 3,
+      "phase": "talk"
+    },
+    {
+      "image": "suno_overlays/006.png",
+      "start": 38.083333333333336,
+      "duration": 4.708333333333329,
+      "section": 3,
+      "phase": "answer"
+    },
+    {
+      "image": "suno_overlays/007.png",
+      "start": 42.791666666666664,
+      "duration": 6.333333333333336,
+      "section": 4,
+      "phase": "talk"
+    },
+    {
+      "image": "suno_overlays/008.png",
+      "start": 49.125,
+      "duration": 4.5,
+      "section": 4,
+      "phase": "answer"
+    },
+    {
+      "image": "suno_overlays/009.png",
+      "start": 53.625,
+      "duration": 7.041666666666664,
+      "section": 5,
+      "phase": "talk"
+    },
+    {
+      "image": "suno_overlays/010.png",
+      "start": 60.666666666666664,
+      "duration": 5.500000000000007,
+      "section": 5,
+      "phase": "answer"
+    },
+    {
+      "image": "suno_overlays/011.png",
+      "start": 66.16666666666667,
+      "duration": 7.166666666666657,
+      "section": 6,
+      "phase": "talk"
+    },
+    {
+      "image": "suno_overlays/012.png",
+      "start": 73.33333333333333,
+      "duration": 4.958333333333343,
+      "section": 6,
+      "phase": "answer"
+    },
+    {
+      "image": "suno_overlays/013.png",
+      "start": 78.29166666666667,
+      "duration": 6.541666666666657,
+      "section": 7,
+      "phase": "talk"
+    },
+    {
+      "image": "suno_overlays/014.png",
+      "start": 84.83333333333333,
+      "duration": 4.25,
+      "section": 7,
+      "phase": "answer"
+    },
+    {
+      "image": "suno_overlays/015.png",
+      "start": 89.08333333333333,
+      "duration": 6.208333333333343,
+      "section": 8,
+      "phase": "talk"
+    },
+    {
+      "image": "suno_overlays/016.png",
+      "start": 95.29166666666667,
+      "duration": 1.7083333333333286,
+      "section": 8,
+      "phase": "wait"
+    },
+    {
+      "image": "suno_overlays/017.png",
+      "start": 97.0,
+      "duration": 3.0833333333333286,
+      "section": 8,
+      "phase": "answer"
+    },
+    {
+      "image": "suno_overlays/018.png",
+      "start": 100.08333333333333,
+      "duration": 6.416666666666671,
+      "section": 9,
+      "phase": "talk"
+    },
+    {
+      "image": "suno_overlays/019.png",
+      "start": 106.5,
+      "duration": 1.7916666666666714,
+      "section": 9,
+      "phase": "wait"
+    },
+    {
+      "image": "suno_overlays/020.png",
+      "start": 108.29166666666667,
+      "duration": 3.25,
+      "section": 9,
+      "phase": "answer"
+    },
+    {
+      "image": "suno_overlays/021.png",
+      "start": 111.54166666666667,
+      "duration": 6.166666666666657,
+      "section": 10,
+      "phase": "talk"
+    },
+    {
+      "image": "suno_overlays/022.png",
+      "start": 117.70833333333333,
+      "duration": 1.5833333333333428,
+      "section": 10,
+      "phase": "wait"
+    },
+    {
+      "image": "suno_overlays/023.png",
+      "start": 119.29166666666667,
+      "duration": 3.541666666666657,
+      "section": 10,
+      "phase": "answer"
+    },
+    {
+      "image": "suno_overlays/024.png",
+      "start": 122.83333333333333,
+      "duration": 10.708333333333329,
+      "section": 11,
+      "phase": "talk"
+    }
+  ]
+}

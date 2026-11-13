@@ -240,6 +240,25 @@ def main(argv: list[str] | None = None) -> None:
                      help="model file: q4 6.8 GB, q5 8.3 GB, q8 12.7 GB (sharper, more memory)")
     img.add_argument("--seed", type=int, default=0)
 
+    speech = sub.add_parser("speak", help="local narration with Kokoro, pauses and optional gentle music")
+    speech.add_argument("text", nargs="?", help="the words to say (not a music-description prompt)")
+    speech.add_argument("-f", "--file", help="plain text, a fenced Suno Markdown script, or JSON segments")
+    speech.add_argument("-o", "--output", default="narration.wav", help=".wav or .mp3 output")
+    speech.add_argument("--voice", default="af_heart", help="Kokoro voice; use --list-voices")
+    speech.add_argument("--style", choices=("neutral", "gentle", "bright"), default="gentle",
+                        help="speaking-rate preset; these are not learned style prompts")
+    speech.add_argument("--speed", type=float, help="override preset speed (0.5–1.5)")
+    speech.add_argument("--pause", type=float, default=2.0, help="seconds for [Short Instrumental Break]")
+    speech.add_argument("--music", choices=("none", "gentle"), default="none",
+                        help="optional original procedural backing music, ducked under speech")
+    speech.add_argument("--music-volume", type=float, default=0.07, help="backing gain, 0–0.3")
+    speech.add_argument("--spell-letters", action="store_true",
+                        help="alphabet lessons: pronounce standalone A–Z as letter names")
+    speech.add_argument("--download-models", action="store_true",
+                        help="explicit one-time model download (354 MB); otherwise fully offline")
+    speech.add_argument("--list-voices", action="store_true", help="list installed English voices")
+    speech.add_argument("--force", action="store_true", help="replace existing output and sidecars")
+
     rend = sub.add_parser("render", help="render a storyboard JSON")
     rend.add_argument("storyboard")
     _add_render_args(rend)
@@ -262,6 +281,10 @@ def main(argv: list[str] | None = None) -> None:
             print(f"wrote {args.output or args.storyboard}")
         elif args.command == "imagine":
             _imagine(args)
+        elif args.command == "speak":
+            from . import audio
+
+            audio.command(args)
         elif args.command == "animate-hq":
             from . import animate_hq
 

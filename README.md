@@ -18,6 +18,10 @@ There are four levels of motion, from fastest to most lifelike:
 It can also **make the pictures**: `img2vid imagine "prompt"` generates high-quality images
 from text with FLUX.1-schnell, locally (~1.5 min per 1 MP image on an 18 GB Mac).
 
+It can also **make narration**: `img2vid speak` uses Kokoro-82M locally on the CPU,
+with selectable voices, exact response pauses, captions, edit timings and optional
+gentle background music. No API key or hosted service is used for speech.
+
 You can also make clips with any online image-to-video service and drop them in
 (`img2vid clips`). Everything runs locally and free. The only optional cloud piece is the
 Claude "AI director", which needs an Anthropic API key.
@@ -279,6 +283,105 @@ For anything more than a quick slideshow, use the two-step flow: `plan` writes
 ---
 
 ## Commands
+
+### `speak`: local voice and lesson audio
+
+For an existing installation:
+
+```bash
+.venv/bin/pip install -e '.[audio]'
+.venv/bin/img2vid speak --download-models
+.venv/bin/img2vid speak --list-voices
+```
+
+On a fresh machine, `./install.sh --core --with-audio --models` installs the core
+tool and local speech without downloading image/video models. Audio uses NumPy 2,
+so use a separate environment from the experimental Intel `--with-3d` stack.
+
+The one-time download is approximately **354 MB**: Kokoro-82M v1.0 float32 ONNX
+weights and a voice bank. Files are size- and SHA-256-verified, stored in
+`~/.cache/img2vid/audio/`; set `IMG2VID_AUDIO_CACHE` to move that directory.
+Subsequent generation is offline and has no account, credits or daily service quota.
+Missing models produce a setup message rather than an implicit download.
+
+```bash
+# Speak the supplied words.
+.venv/bin/img2vid speak "Hello, little explorer!" -o hello.wav
+
+# Use the existing G–P script, with a warm voice and quiet backing music.
+.venv/bin/img2vid speak \
+  --file projects/alphabet_adventure_g_p/SUNO_SCRIPT.md \
+  --voice af_heart --speed 0.86 --spell-letters --music gentle \
+  --output lesson.mp3
+
+# This project helper gives quiz questions longer response pauses.
+.venv/bin/python projects/alphabet_adventure_g_p/prepare_audio.py
+```
+
+**Inputs:** plain text, a Markdown document containing exactly one fenced `text`
+block, or a JSON list of `{"text": "...", "section": "..."}` and
+`{"pause": 3, "section": "..."}` objects. A section label is optional.
+The text is what the narrator says; a prompt such as “make a happy song” is not
+expanded into lyrics.
+
+```text
+[Spoken Intro]
+Let's learn together!
+
+[Spoken Verse 1]
+G is for giraffe. Can you say giraffe?
+
+[pause 2]
+
+Giraffe! G is for giraffe.
+```
+
+`[Short Instrumental Break]` uses `--pause` seconds (default 2). Explicit
+`[pause 3]` or `[Pause 3 seconds]` overrides that default. Intro, verse, chorus,
+recap, quiz and outro tags are labels, never spoken; unknown bracketed directions
+are rejected so production instructions do not accidentally become narration.
+
+| Option | Behavior |
+|---|---|
+| `--voice af_heart` | Default American female voice; 28 English voices are available in this bank |
+| `--list-voices` | List installed English voices; `af/am` are American and `bf/bm` British |
+| `--style gentle` | Speaking-rate preset: `gentle` 0.9, `neutral` 1.0, `bright` 1.04 |
+| `--speed 0.86` | Override the rate preset; accepted range 0.5–1.5 |
+| `--spell-letters` | Alphabet lessons: pronounce standalone uppercase letters and “lowercase x” as letter names |
+| `--music gentle` | Add an original procedural instrumental bed, quieter under narration |
+| `--music-volume 0.07` | Backing gain, 0–0.3 |
+| `--force` | Replace existing output and its sidecars |
+
+`--spell-letters` is specifically for alphabet scripts: it also treats a standalone
+uppercase **I** as the letter name. Omit it for ordinary narration.
+Style presets only change speed; they are not free-form emotion controls.
+
+Each generation produces:
+
+- `lesson.wav` or `lesson.mp3`: finished audio.
+- `lesson.voice.wav`: clean 24 kHz mono narration, with exact silent response gaps.
+- `lesson.timeline.json`: sample-derived speech/pause boundaries, section labels,
+  displayed text and spoken text, voice and speed.
+- `lesson.srt`: captions aligned to speech chunks; pauses have no captions.
+
+WAV needs no encoder; MP3 export uses the existing FFmpeg installation.
+Utterances are cached under `~/.cache/img2vid/audio/utterances/`, allowing interrupted
+jobs to resume without regenerating completed speech. Delete that subdirectory to
+reclaim space; it will be rebuilt when needed.
+
+**Scope:** this is a local **speech** generator, suitable for our narrated alphabet
+lessons. The optional backing is synthesized in code, not an AI music model.
+It does not reproduce Suno's full sung-song generation, voice cloning or arbitrary
+music-style prompts. This command currently exposes English voices.
+
+**Model and license:** [Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) has
+Apache-2.0 weights. The [kokoro-onnx runtime](https://github.com/thewh1teagle/kokoro-onnx)
+is MIT-licensed; this tool downloads its pinned
+[v1.1 release assets](https://github.com/thewh1teagle/kokoro-onnx/releases/tag/model-files-v1.1)
+for the v1.0 English model. eSpeak phonemization libraries/data ship with the
+optional Python dependency, so no separate system eSpeak installation is required.
+
+Focused checks: `.venv/bin/python -m unittest discover -s tests -p test_audio.py -v`.
 
 All commands: `.venv/bin/img2vid <command> --help`.
 

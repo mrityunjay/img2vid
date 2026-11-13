@@ -30,6 +30,9 @@ motion = [
 # text-to-image (img2vid imagine); also needs the motion extra
 image = ["gguf>=0.10"]
 
+# Local CPU narration; bundles eSpeak phonemization without a separate system install.
+audio = ["kokoro-onnx>=0.6.1,<0.7"]
+
 [project.scripts]
 img2vid = "img2vid.cli:main"
 

@@ -1,0 +1,61 @@
+{
+  "title": "Alphabet Adventure — G to P",
+  "letters": [
+    {
+      "letter": "G", "word": "Giraffe", "color": "#B66D12",
+      "image_prompt": "One adorable baby giraffe standing on four slender legs, with a long graceful neck, small rounded ossicones, two ears, warm golden fur with brown patches, large gentle brown eyes, a friendly closed-mouth smile and one short tail. Entire giraffe visible from the top of its head to all four hooves, generous headroom. Three-quarter front view, natural giraffe anatomy, no clothing.",
+      "motion_prompt": "The baby giraffe stands still on four hooves and gently moves the tip of its single tail. Preserve its long neck, face, patches, two ears and four legs. Static camera, unchanged cream background. No walking, extra limbs, new animals or text."
+    },
+    {
+      "letter": "H", "word": "Hat", "color": "#2C78BE",
+      "image_prompt": "One cheerful sky-blue sun hat with a rounded crown, a wide gently curved brim and one simple golden-yellow ribbon around the crown. The whole hat rests upright on a clean studio floor. Clear recognizable hat silhouette, soft woven fabric texture. No face, eyes, arms, people, writing or accessories.",
+      "motion_prompt": "A single blue sun hat rests on the cream floor. One loose end of its yellow ribbon gently flutters. The hat and brim stay still. Preserve its exact shape, fabric and colors. Static camera, no people, faces, extra objects or text."
+    },
+    {
+      "letter": "I", "word": "Ice cream", "color": "#C8487A",
+      "image_prompt": "One ice cream cone standing upright, with one round scoop of pale strawberry-pink ice cream on top of one crisp golden waffle cone. The entire cone and scoop are clearly visible. A clean simple silhouette and softly detailed waffle texture. No melting, dripping, toppings, face, hands, writing or extra objects.",
+      "motion_prompt": "The single strawberry ice cream cone slowly rotates a few degrees around its upright axis. Its base stays in the same place. Preserve one round pink scoop and one waffle cone. No melting, dripping, extra scoops or faces. Static camera and unchanged cream background."
+    },
+    {
+      "letter": "J", "word": "Juice", "color": "#B86015",
+      "image_prompt": "One clear wide drinking glass filled three-quarters with bright orange juice. The glass has a simple cylindrical shape and a sturdy flat base, resting on the studio floor. The orange liquid is clearly visible with a smooth surface. No fruit, straw, ice cubes, label, writing, face, hands or extra glasses.",
+      "motion_prompt": "Tiny gentle ripples travel across the surface of the orange juice inside one stationary clear glass. Preserve the glass shape, liquid level and orange color. No spilling, bubbles, hands, extra objects or text. Locked camera and stable cream background."
+    },
+    {
+      "letter": "K", "word": "Kite", "color": "#7854AA",
+      "image_prompt": "One colorful classic diamond-shaped kite floating upright above a clean cream studio floor, with four simple panels in blue, coral, yellow and purple. One short curved tail with two small ribbon bows hangs below it. The entire diamond and tail are visible with generous margins. No people, writing, faces, extra kites or tangled strings.",
+      "motion_prompt": "One colorful diamond kite gently sways a little left and right while its single short ribbon tail follows. Preserve the diamond shape, four colored panels and two tail bows. No flips, rotations, new objects or text. Static camera, stable cream background."
+    },
+    {
+      "letter": "L", "word": "Lion", "color": "#A96916",
+      "image_prompt": "One adorable friendly young lion sitting upright with a soft fluffy rounded caramel mane, golden fur, two round ears, large kind brown eyes, a small dark nose, four natural paws and one tail visible beside its body. Calm closed-mouth smile, no exposed teeth. Full body and paws visible. Clearly a lion, no clothing or accessories.",
+      "motion_prompt": "The friendly seated lion slowly blinks once. Its four paws remain still. Preserve the round caramel mane, golden fur, face, two ears and single tail. No roaring, exposed teeth, extra limbs or text. Static camera, unchanged cream background."
+    },
+    {
+      "letter": "M", "word": "Monkey", "color": "#956138",
+      "image_prompt": "One adorable small brown monkey sitting upright, with a cream-colored face and tummy, two round ears, two bright friendly brown eyes, two arms with hands resting beside its body, two legs with feet visible and one long curled tail beside it. Natural simple anatomy, gentle closed-mouth smile, full body visible. No clothes, bananas or accessories.",
+      "motion_prompt": "The small seated brown monkey gently sways the tip of its single curled tail. Its hands and feet remain still. Preserve its cream face, two ears, two arms, two legs and body shape. No new limbs, objects or text. Locked camera and stable cream background."
+    },
+    {
+      "letter": "N", "word": "Nest", "color": "#30856C",
+      "image_prompt": "One small rounded bird nest woven from soft brown twigs and dry golden grass, resting on the studio floor. Three smooth pale-blue eggs sit safely inside the shallow nest, clearly visible from a slightly elevated front view. The complete nest is visible with generous margins. No birds, chicks, broken eggs, trees, faces, writing or extra nests.",
+      "motion_prompt": "Two fine grass tips along the rim of the stationary bird nest gently sway in a light breeze. The three pale-blue eggs remain still and intact. Preserve the nest shape and egg count. Static camera, no hatching, birds, new objects or text."
+    },
+    {
+      "letter": "O", "word": "Orange", "color": "#C16C13",
+      "image_prompt": "One whole ripe orange fruit resting on the studio floor, with round natural shape, softly dimpled vivid orange peel, a tiny short stem and one fresh green leaf. Clear recognizable fruit silhouette. The fruit is the only subject, not cut open. No face, eyes, hands, writing or additional fruit.",
+      "motion_prompt": "The single whole orange remains still while its small green leaf gently sways once. Preserve its round shape, dimpled peel, stem and colors. No cutting, new fruit, faces or text. Locked camera and unchanged cream studio background."
+    },
+    {
+      "letter": "P", "word": "Penguin", "color": "#287A9A",
+      "image_prompt": "One adorable fluffy baby penguin standing upright on two small orange webbed feet, with soft gray body feathers, a white tummy, dark rounded head, two friendly eyes, one small orange beak and two short flippers at its sides. Full body clearly visible with generous margins. Calm friendly expression, no clothes, snow props or accessories.",
+      "motion_prompt": "The single baby penguin stands on two feet and gently wiggles its two small flippers. Preserve its gray feathers, white tummy, face, beak and body proportions. No walking, extra flippers, new objects or text. Static camera and unchanged cream background."
+    }
+  ],
+  "style": "A premium 3D animated preschool movie still. One charming subject centered in a wide landscape frame, rounded toy-like forms, polished detailed materials, warm soft studio lighting and a gentle contact shadow. Seamless pale cream studio backdrop and floor, uncluttered. Full subject visible with generous margins. Sharp, bright, friendly, natural proportions. Exactly one complete image, no text, letters, watermark, logo or collage.",
+  "quizzes": [
+    {"letter": "M", "options": ["G", "M", "P"]},
+    {"letter": "K", "options": ["K", "N", "H"]},
+    {"letter": "P", "options": ["I", "J", "P"]}
+  ]
+}

@@ -34,3 +34,6 @@ projects/*/test/
 # generated per machine (hold local clip-cache paths); rebuild with motion.py / dance.py
 projects/brush_brush_karo/anim.json
 projects/brush_brush_karo/dance.json
+projects/alphabet_adventure/motion.json
+projects/alphabet_adventure/storyboard.json
+projects/alphabet_adventure/suno_storyboard.json

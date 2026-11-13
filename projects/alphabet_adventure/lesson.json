@@ -1,0 +1,66 @@
+{
+  "title": "Alphabet Adventure",
+  "subtitle": "Let's learn A, B, C, D, E and F!",
+  "language": "English",
+  "audience": "Preschool children, approximately ages 3–5, with a caregiver",
+  "voice": "Samantha",
+  "speech_rate": 145,
+  "speech_speed": 0.8,
+  "style": "A premium original 3D animated preschool film still, one single charming subject centered in a wide landscape frame, rounded toy-like forms, polished detailed materials, gentle warm studio illumination, soft contact shadow, bright balanced pastel colors. A seamless pale cream studio backdrop and floor with no horizon clutter. Entire subject visible with generous empty margins on every side, front three-quarter view, medium-wide composition. No text, letters, numbers, labels, logo, watermark, collage or extra subjects. Clear recognizable silhouette for a child learning English vocabulary.",
+  "letters": [
+    {
+      "letter": "A",
+      "word": "Apple",
+      "color": "#BC343E",
+      "image_prompt": "One large fresh red apple with a short brown stem and one small green leaf, standing upright on the floor. Glossy natural red skin, simple appealing shape, gentle highlight. This is an ordinary apple without a face, arms or legs. The apple is the only object in the scene.",
+      "motion_prompt": "A single red apple rests on a cream studio floor. Its small green leaf gently sways once while the apple stays still. Preserve the exact apple shape, stem, colors and background. Static camera. No text, new objects or face."
+    },
+    {
+      "letter": "B",
+      "word": "Ball",
+      "color": "#1764A7",
+      "image_prompt": "One round colorful rubber play ball divided into broad blue, yellow and coral-red curved panels. The ball rests on the floor with a soft shadow. Smooth friendly toy material, no writing or logo, no face, arms or legs. Only one ball, completely visible.",
+      "motion_prompt": "One colorful rubber ball gently rocks a little to one side and settles on the cream floor. Preserve its round shape and blue, yellow and coral-red panels. Static camera, no extra balls, no text, no change of background."
+    },
+    {
+      "letter": "C",
+      "word": "Cat",
+      "color": "#8C4CAD",
+      "image_prompt": "One adorable fluffy orange tabby kitten sitting upright, facing slightly toward the viewer, with two triangular ears, two bright green eyes, a small pink nose, four natural paws and one curled tail visible beside its body. Friendly relaxed closed-mouth smile. No clothes, collar, accessories or additional animals.",
+      "motion_prompt": "The seated orange kitten slowly blinks once and gently moves the tip of its curled tail. All four paws stay on the floor. Preserve its face, triangular ears, green eyes, fur pattern and proportions. Locked camera, no new animals or text."
+    },
+    {
+      "letter": "D",
+      "word": "Dog",
+      "color": "#217562",
+      "image_prompt": "One adorable golden-brown puppy sitting upright with two soft floppy ears, large gentle brown eyes, a dark round nose, four natural paws and one visible short tail. Friendly relaxed expression. Clearly a dog, distinct from a cat. No clothes, collar, accessories or other animals.",
+      "motion_prompt": "The golden-brown puppy sits with all paws steady and slowly wags its single tail. Its floppy ears and friendly face stay stable. Preserve its anatomy, fur color and background. Locked camera. No new animals, objects or text."
+    },
+    {
+      "letter": "E",
+      "word": "Elephant",
+      "color": "#9D4C16",
+      "image_prompt": "One adorable small gray baby elephant standing with all four sturdy feet visible, two large rounded ears, one long gently curved trunk, two expressive brown eyes and one short tail. Rounded natural elephant body, no tusks, friendly calm expression. The trunk is separate from the legs and clearly readable. No clothing or accessories.",
+      "motion_prompt": "The baby elephant stands still on four feet and gently sways its single trunk a few centimeters. Preserve the same two ears, four legs, gray skin and friendly face. Locked camera. No walking, extra limbs, new objects or text."
+    },
+    {
+      "letter": "F",
+      "word": "Fish",
+      "color": "#146D91",
+      "image_prompt": "One adorable orange goldfish viewed from the side with a slight turn toward the viewer, a rounded body, natural fins, one fan-shaped tail and a large friendly visible eye. Suspended in clear pale turquoise underwater space with a few tiny soft bubbles and gentle light rays. Entire fish visible, no bowl, no hooks, no legs, no other fish. Calm bright child-friendly underwater scene.",
+      "motion_prompt": "The single orange goldfish gently fans its tail and fins while hovering in the same place underwater. The background remains still. Preserve its body, eye, fins, colors and size. Locked camera, no additional fish, no text."
+    }
+  ],
+  "quizzes": [
+    {"letter": "C", "options": ["A", "C", "F"]},
+    {"letter": "E", "options": ["B", "D", "E"]},
+    {"letter": "B", "options": ["F", "B", "A"]}
+  ],
+  "production_notes": [
+    "Teach letter names and letter-word associations; this is not an isolated-phoneme lesson.",
+    "Render all letters and words as deterministic typography after AI animation.",
+    "Each learning scene includes a three-second speaking pause and a friendly response.",
+    "Each review quiz includes a four-second answer pause before the answer is shown and spoken.",
+    "Create six images first, visually inspect them, then animate the approved images."
+  ]
+}

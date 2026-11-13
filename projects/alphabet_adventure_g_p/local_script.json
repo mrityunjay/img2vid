@@ -1,0 +1,190 @@
+[
+  {
+    "section": "Spoken Intro",
+    "text": "Hello, little explorer! Ready for ten new letters? Today we'll learn G, H, I, J, K, L, M, N, O, and P. Look, listen, and say the words with me!"
+  },
+  {
+    "section": "Spoken Verse 1",
+    "text": "This is the letter G. Capital G and lowercase g. G is for giraffe. Can you say giraffe?"
+  },
+  {
+    "section": "Spoken Verse 1",
+    "pause": 2.0
+  },
+  {
+    "section": "Spoken Verse 1",
+    "text": "Giraffe! G is for giraffe. Let's say G together!"
+  },
+  {
+    "section": "Spoken Verse 2",
+    "text": "This is the letter H. Capital H and lowercase h. H is for hat. Can you say hat?"
+  },
+  {
+    "section": "Spoken Verse 2",
+    "pause": 2.0
+  },
+  {
+    "section": "Spoken Verse 2",
+    "text": "Hat! H is for hat. Let's say H together!"
+  },
+  {
+    "section": "Spoken Verse 3",
+    "text": "This is the letter I. Capital I and lowercase i. I is for ice cream. Can you say ice cream?"
+  },
+  {
+    "section": "Spoken Verse 3",
+    "pause": 2.0
+  },
+  {
+    "section": "Spoken Verse 3",
+    "text": "Ice cream! I is for ice cream. Let's say I together!"
+  },
+  {
+    "section": "Spoken Verse 4",
+    "text": "This is the letter J. Capital J and lowercase j. J is for juice. Can you say juice?"
+  },
+  {
+    "section": "Spoken Verse 4",
+    "pause": 2.0
+  },
+  {
+    "section": "Spoken Verse 4",
+    "text": "Juice! J is for juice. Let's say J together!"
+  },
+  {
+    "section": "Spoken Verse 5",
+    "text": "This is the letter K. Capital K and lowercase k. K is for kite. Can you say kite?"
+  },
+  {
+    "section": "Spoken Verse 5",
+    "pause": 2.0
+  },
+  {
+    "section": "Spoken Verse 5",
+    "text": "Kite! K is for kite. Let's say K together!"
+  },
+  {
+    "section": "Spoken Verse 6",
+    "text": "This is the letter L. Capital L and lowercase l. L is for lion. Can you say lion?"
+  },
+  {
+    "section": "Spoken Verse 6",
+    "pause": 2.0
+  },
+  {
+    "section": "Spoken Verse 6",
+    "text": "Lion! L is for lion. Let's say L together!"
+  },
+  {
+    "section": "Spoken Verse 7",
+    "text": "This is the letter M. Capital M and lowercase m. M is for monkey. Can you say monkey?"
+  },
+  {
+    "section": "Spoken Verse 7",
+    "pause": 2.0
+  },
+  {
+    "section": "Spoken Verse 7",
+    "text": "Monkey! M is for monkey. Let's say M together!"
+  },
+  {
+    "section": "Spoken Verse 8",
+    "text": "This is the letter N. Capital N and lowercase n. N is for nest. Can you say nest?"
+  },
+  {
+    "section": "Spoken Verse 8",
+    "pause": 2.0
+  },
+  {
+    "section": "Spoken Verse 8",
+    "text": "Nest! N is for nest. Let's say N together!"
+  },
+  {
+    "section": "Spoken Verse 9",
+    "text": "This is the letter O. Capital O and lowercase o. O is for orange. Can you say orange?"
+  },
+  {
+    "section": "Spoken Verse 9",
+    "pause": 2.0
+  },
+  {
+    "section": "Spoken Verse 9",
+    "text": "Orange! O is for orange. Let's say O together!"
+  },
+  {
+    "section": "Spoken Verse 10",
+    "text": "This is the letter P. Capital P and lowercase p. P is for penguin. Can you say penguin?"
+  },
+  {
+    "section": "Spoken Verse 10",
+    "pause": 2.0
+  },
+  {
+    "section": "Spoken Verse 10",
+    "text": "Penguin! P is for penguin. Let's say P together!"
+  },
+  {
+    "section": "Spoken Recap",
+    "text": "Let's practice five letters at a time! G, H, I, J, K. Now you say them!"
+  },
+  {
+    "section": "Spoken Recap",
+    "pause": 2.0
+  },
+  {
+    "section": "Spoken Recap",
+    "text": "Wonderful! L, M, N, O, P. Your turn!"
+  },
+  {
+    "section": "Spoken Recap",
+    "pause": 2.0
+  },
+  {
+    "section": "Spoken Recap",
+    "text": "Great practicing! Now let's play a little guessing game."
+  },
+  {
+    "section": "Spoken Quiz 1",
+    "text": "Which letter starts monkey? G, M, or P? Point to your answer and say the letter!"
+  },
+  {
+    "section": "Spoken Quiz 1",
+    "pause": 3
+  },
+  {
+    "section": "Spoken Quiz 1",
+    "text": "It's M! M is for monkey. Well done for trying!"
+  },
+  {
+    "section": "Spoken Quiz 2",
+    "text": "Which letter starts kite? K, N, or H? Point to your answer and say the letter!"
+  },
+  {
+    "section": "Spoken Quiz 2",
+    "pause": 3
+  },
+  {
+    "section": "Spoken Quiz 2",
+    "text": "It's K! K is for kite. Keep exploring!"
+  },
+  {
+    "section": "Spoken Quiz 3",
+    "text": "Which letter starts penguin? I, J, or P? Point to your answer and say the letter!"
+  },
+  {
+    "section": "Spoken Quiz 3",
+    "pause": 3
+  },
+  {
+    "section": "Spoken Quiz 3",
+    "text": "It's P! P is for penguin. Great practicing!"
+  },
+  {
+    "section": "Spoken Outro",
+    "text": "You practiced ten new letters! G, H, I, J, K, L, M, N, O, and P. Give yourself a little clap! Tell a grown-up your favorite word. See you next time, little explorer!"
+  },
+  {
+    "section": "Spoken Outro",
+    "pause": 2.0
+  }
+]

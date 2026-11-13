@@ -1,0 +1,477 @@
+{
+  "version": 1,
+  "engine": "Kokoro-82M v1.0 / kokoro-onnx",
+  "voice": "af_heart",
+  "speed": 0.86,
+  "sample_rate": 24000,
+  "duration": 205.84570833333333,
+  "music": "procedural gentle",
+  "spell_letters": true,
+  "segments": [
+    {
+      "type": "speech",
+      "text": "Hello, little explorer! Ready for ten new letters? Today we'll learn G, H, I, J, K, L, M, N, O, and P. Look, listen, and say the words with me!",
+      "section": "Spoken Intro",
+      "spoken_text": "Hello, little explorer! Ready for ten new letters? Today we'll learn gee, aitch, eye, jay, kay, ell, em, en, oh, and pee. Look, listen, and say the words with me!",
+      "start": 0.0,
+      "end": 11.686667
+    },
+    {
+      "type": "pause",
+      "section": "Spoken Intro",
+      "seconds": 0.2,
+      "start": 11.686667,
+      "end": 11.886667
+    },
+    {
+      "type": "speech",
+      "text": "This is the letter G. Capital G and lowercase g. G is for giraffe. Can you say giraffe?",
+      "section": "Spoken Verse 1",
+      "spoken_text": "This is the letter gee. Capital gee and lowercase gee. gee is for giraffe. Can you say giraffe?",
+      "start": 11.886667,
+      "end": 18.83925
+    },
+    {
+      "type": "pause",
+      "seconds": 2.0,
+      "section": "Spoken Verse 1",
+      "start": 18.83925,
+      "end": 20.83925
+    },
+    {
+      "type": "speech",
+      "text": "Giraffe! G is for giraffe. Let's say G together!",
+      "section": "Spoken Verse 1",
+      "spoken_text": "Giraffe! gee is for giraffe. Let's say gee together!",
+      "start": 20.83925,
+      "end": 24.697917
+    },
+    {
+      "type": "pause",
+      "section": "Spoken Verse 1",
+      "seconds": 0.2,
+      "start": 24.697917,
+      "end": 24.897917
+    },
+    {
+      "type": "speech",
+      "text": "This is the letter H. Capital H and lowercase h. H is for hat. Can you say hat?",
+      "section": "Spoken Verse 2",
+      "spoken_text": "This is the letter aitch. Capital aitch and lowercase aitch. aitch is for hat. Can you say hat?",
+      "start": 24.897917,
+      "end": 31.39125
+    },
+    {
+      "type": "pause",
+      "seconds": 2.0,
+      "section": "Spoken Verse 2",
+      "start": 31.39125,
+      "end": 33.39125
+    },
+    {
+      "type": "speech",
+      "text": "Hat! H is for hat. Let's say H together!",
+      "section": "Spoken Verse 2",
+      "spoken_text": "Hat! aitch is for hat. Let's say aitch together!",
+      "start": 33.39125,
+      "end": 36.79325
+    },
+    {
+      "type": "pause",
+      "section": "Spoken Verse 2",
+      "seconds": 0.2,
+      "start": 36.79325,
+      "end": 36.99325
+    },
+    {
+      "type": "speech",
+      "text": "This is the letter I. Capital I and lowercase i. I is for ice cream. Can you say ice cream?",
+      "section": "Spoken Verse 3",
+      "spoken_text": "This is the letter eye. Capital eye and lowercase eye. eye is for ice cream. Can you say ice cream?",
+      "start": 36.99325,
+      "end": 43.905917
+    },
+    {
+      "type": "pause",
+      "seconds": 2.0,
+      "section": "Spoken Verse 3",
+      "start": 43.905917,
+      "end": 45.905917
+    },
+    {
+      "type": "speech",
+      "text": "Ice cream! I is for ice cream. Let's say I together!",
+      "section": "Spoken Verse 3",
+      "spoken_text": "Ice cream! eye is for ice cream. Let's say eye together!",
+      "start": 45.905917,
+      "end": 49.80125
+    },
+    {
+      "type": "pause",
+      "section": "Spoken Verse 3",
+      "seconds": 0.2,
+      "start": 49.80125,
+      "end": 50.00125
+    },
+    {
+      "type": "speech",
+      "text": "This is the letter J. Capital J and lowercase j. J is for juice. Can you say juice?",
+      "section": "Spoken Verse 4",
+      "spoken_text": "This is the letter jay. Capital jay and lowercase jay. jay is for juice. Can you say juice?",
+      "start": 50.00125,
+      "end": 56.592542
+    },
+    {
+      "type": "pause",
+      "seconds": 2.0,
+      "section": "Spoken Verse 4",
+      "start": 56.592542,
+      "end": 58.592542
+    },
+    {
+      "type": "speech",
+      "text": "Juice! J is for juice. Let's say J together!",
+      "section": "Spoken Verse 4",
+      "spoken_text": "Juice! jay is for juice. Let's say jay together!",
+      "start": 58.592542,
+      "end": 62.207875
+    },
+    {
+      "type": "pause",
+      "section": "Spoken Verse 4",
+      "seconds": 0.2,
+      "start": 62.207875,
+      "end": 62.407875
+    },
+    {
+      "type": "speech",
+      "text": "This is the letter K. Capital K and lowercase k. K is for kite. Can you say kite?",
+      "section": "Spoken Verse 5",
+      "spoken_text": "This is the letter kay. Capital kay and lowercase kay. kay is for kite. Can you say kite?",
+      "start": 62.407875,
+      "end": 68.7045
+    },
+    {
+      "type": "pause",
+      "seconds": 2.0,
+      "section": "Spoken Verse 5",
+      "start": 68.7045,
+      "end": 70.7045
+    },
+    {
+      "type": "speech",
+      "text": "Kite! K is for kite. Let's say K together!",
+      "section": "Spoken Verse 5",
+      "spoken_text": "Kite! kay is for kite. Let's say kay together!",
+      "start": 70.7045,
+      "end": 74.211833
+    },
+    {
+      "type": "pause",
+      "section": "Spoken Verse 5",
+      "seconds": 0.2,
+      "start": 74.211833,
+      "end": 74.411833
+    },
+    {
+      "type": "speech",
+      "text": "This is the letter L. Capital L and lowercase l. L is for lion. Can you say lion?",
+      "section": "Spoken Verse 6",
+      "spoken_text": "This is the letter ell. Capital ell and lowercase ell. ell is for lion. Can you say lion?",
+      "start": 74.411833,
+      "end": 80.909167
+    },
+    {
+      "type": "pause",
+      "seconds": 2.0,
+      "section": "Spoken Verse 6",
+      "start": 80.909167,
+      "end": 82.909167
+    },
+    {
+      "type": "speech",
+      "text": "Lion! L is for lion. Let's say L together!",
+      "section": "Spoken Verse 6",
+      "spoken_text": "Lion! ell is for lion. Let's say ell together!",
+      "start": 82.909167,
+      "end": 86.4105
+    },
+    {
+      "type": "pause",
+      "section": "Spoken Verse 6",
+      "seconds": 0.2,
+      "start": 86.4105,
+      "end": 86.6105
+    },
+    {
+      "type": "speech",
+      "text": "This is the letter M. Capital M and lowercase m. M is for monkey. Can you say monkey?",
+      "section": "Spoken Verse 7",
+      "spoken_text": "This is the letter em. Capital em and lowercase em. em is for monkey. Can you say monkey?",
+      "start": 86.6105,
+      "end": 93.621167
+    },
+    {
+      "type": "pause",
+      "seconds": 2.0,
+      "section": "Spoken Verse 7",
+      "start": 93.621167,
+      "end": 95.621167
+    },
+    {
+      "type": "speech",
+      "text": "Monkey! M is for monkey. Let's say M together!",
+      "section": "Spoken Verse 7",
+      "spoken_text": "Monkey! em is for monkey. Let's say em together!",
+      "start": 95.621167,
+      "end": 99.2405
+    },
+    {
+      "type": "pause",
+      "section": "Spoken Verse 7",
+      "seconds": 0.2,
+      "start": 99.2405,
+      "end": 99.4405
+    },
+    {
+      "type": "speech",
+      "text": "This is the letter N. Capital N and lowercase n. N is for nest. Can you say nest?",
+      "section": "Spoken Verse 8",
+      "spoken_text": "This is the letter en. Capital en and lowercase en. en is for nest. Can you say nest?",
+      "start": 99.4405,
+      "end": 105.9805
+    },
+    {
+      "type": "pause",
+      "seconds": 2.0,
+      "section": "Spoken Verse 8",
+      "start": 105.9805,
+      "end": 107.9805
+    },
+    {
+      "type": "speech",
+      "text": "Nest! N is for nest. Let's say N together!",
+      "section": "Spoken Verse 8",
+      "spoken_text": "Nest! en is for nest. Let's say en together!",
+      "start": 107.9805,
+      "end": 111.426458
+    },
+    {
+      "type": "pause",
+      "section": "Spoken Verse 8",
+      "seconds": 0.2,
+      "start": 111.426458,
+      "end": 111.626458
+    },
+    {
+      "type": "speech",
+      "text": "This is the letter O. Capital O and lowercase o. O is for orange. Can you say orange?",
+      "section": "Spoken Verse 9",
+      "spoken_text": "This is the letter oh. Capital oh and lowercase oh. oh is for orange. Can you say orange?",
+      "start": 111.626458,
+      "end": 118.177792
+    },
+    {
+      "type": "pause",
+      "seconds": 2.0,
+      "section": "Spoken Verse 9",
+      "start": 118.177792,
+      "end": 120.177792
+    },
+    {
+      "type": "speech",
+      "text": "Orange! O is for orange. Let's say O together!",
+      "section": "Spoken Verse 9",
+      "spoken_text": "Orange! oh is for orange. Let's say oh together!",
+      "start": 120.177792,
+      "end": 123.681792
+    },
+    {
+      "type": "pause",
+      "section": "Spoken Verse 9",
+      "seconds": 0.2,
+      "start": 123.681792,
+      "end": 123.881792
+    },
+    {
+      "type": "speech",
+      "text": "This is the letter P. Capital P and lowercase p. P is for penguin. Can you say penguin?",
+      "section": "Spoken Verse 10",
+      "spoken_text": "This is the letter pee. Capital pee and lowercase pee. pee is for penguin. Can you say penguin?",
+      "start": 123.881792,
+      "end": 130.636458
+    },
+    {
+      "type": "pause",
+      "seconds": 2.0,
+      "section": "Spoken Verse 10",
+      "start": 130.636458,
+      "end": 132.636458
+    },
+    {
+      "type": "speech",
+      "text": "Penguin! P is for penguin. Let's say P together!",
+      "section": "Spoken Verse 10",
+      "spoken_text": "Penguin! pee is for penguin. Let's say pee together!",
+      "start": 132.636458,
+      "end": 136.308458
+    },
+    {
+      "type": "pause",
+      "section": "Spoken Verse 10",
+      "seconds": 0.2,
+      "start": 136.308458,
+      "end": 136.508458
+    },
+    {
+      "type": "speech",
+      "text": "Let's practice five letters at a time! G, H, I, J, K. Now you say them!",
+      "section": "Spoken Recap",
+      "spoken_text": "Let's practice five letters at a time! gee, aitch, eye, jay, kay. Now you say them!",
+      "start": 136.508458,
+      "end": 142.12175
+    },
+    {
+      "type": "pause",
+      "seconds": 2.0,
+      "section": "Spoken Recap",
+      "start": 142.12175,
+      "end": 144.12175
+    },
+    {
+      "type": "speech",
+      "text": "Wonderful! L, M, N, O, P. Your turn!",
+      "section": "Spoken Recap",
+      "spoken_text": "Wonderful! ell, em, en, oh, pee. Your turn!",
+      "start": 144.12175,
+      "end": 147.60575
+    },
+    {
+      "type": "pause",
+      "seconds": 2.0,
+      "section": "Spoken Recap",
+      "start": 147.60575,
+      "end": 149.60575
+    },
+    {
+      "type": "speech",
+      "text": "Great practicing! Now let's play a little guessing game.",
+      "section": "Spoken Recap",
+      "spoken_text": "Great practicing! Now let's play a little guessing game.",
+      "start": 149.60575,
+      "end": 153.07375
+    },
+    {
+      "type": "pause",
+      "section": "Spoken Recap",
+      "seconds": 0.2,
+      "start": 153.07375,
+      "end": 153.27375
+    },
+    {
+      "type": "speech",
+      "text": "Which letter starts monkey? G, M, or P? Point to your answer and say the letter!",
+      "section": "Spoken Quiz 1",
+      "spoken_text": "Which letter starts monkey? gee, em, or pee? Point to your answer and say the letter!",
+      "start": 153.27375,
+      "end": 159.266417
+    },
+    {
+      "type": "pause",
+      "seconds": 3.0,
+      "section": "Spoken Quiz 1",
+      "start": 159.266417,
+      "end": 162.266417
+    },
+    {
+      "type": "speech",
+      "text": "It's M! M is for monkey. Well done for trying!",
+      "section": "Spoken Quiz 1",
+      "spoken_text": "It's em! em is for monkey. Well done for trying!",
+      "start": 162.266417,
+      "end": 165.979708
+    },
+    {
+      "type": "pause",
+      "section": "Spoken Quiz 1",
+      "seconds": 0.2,
+      "start": 165.979708,
+      "end": 166.179708
+    },
+    {
+      "type": "speech",
+      "text": "Which letter starts kite? K, N, or H? Point to your answer and say the letter!",
+      "section": "Spoken Quiz 2",
+      "spoken_text": "Which letter starts kite? kay, en, or aitch? Point to your answer and say the letter!",
+      "start": 166.179708,
+      "end": 171.931042
+    },
+    {
+      "type": "pause",
+      "seconds": 3.0,
+      "section": "Spoken Quiz 2",
+      "start": 171.931042,
+      "end": 174.931042
+    },
+    {
+      "type": "speech",
+      "text": "It's K! K is for kite. Keep exploring!",
+      "section": "Spoken Quiz 2",
+      "spoken_text": "It's kay! kay is for kite. Keep exploring!",
+      "start": 174.931042,
+      "end": 177.995042
+    },
+    {
+      "type": "pause",
+      "section": "Spoken Quiz 2",
+      "seconds": 0.2,
+      "start": 177.995042,
+      "end": 178.195042
+    },
+    {
+      "type": "speech",
+      "text": "Which letter starts penguin? I, J, or P? Point to your answer and say the letter!",
+      "section": "Spoken Quiz 3",
+      "spoken_text": "Which letter starts penguin? eye, jay, or pee? Point to your answer and say the letter!",
+      "start": 178.195042,
+      "end": 183.987042
+    },
+    {
+      "type": "pause",
+      "seconds": 3.0,
+      "section": "Spoken Quiz 3",
+      "start": 183.987042,
+      "end": 186.987042
+    },
+    {
+      "type": "speech",
+      "text": "It's P! P is for penguin. Great practicing!",
+      "section": "Spoken Quiz 3",
+      "spoken_text": "It's pee! pee is for penguin. Great practicing!",
+      "start": 186.987042,
+      "end": 190.525708
+    },
+    {
+      "type": "pause",
+      "section": "Spoken Quiz 3",
+      "seconds": 0.2,
+      "start": 190.525708,
+      "end": 190.725708
+    },
+    {
+      "type": "speech",
+      "text": "You practiced ten new letters! G, H, I, J, K, L, M, N, O, and P. Give yourself a little clap! Tell a grown-up your favorite word. See you next time, little explorer!",
+      "section": "Spoken Outro",
+      "spoken_text": "You practiced ten new letters! gee, aitch, eye, jay, kay, ell, em, en, oh, and pee. Give yourself a little clap! Tell a grown-up your favorite word. See you next time, little explorer!",
+      "start": 190.725708,
+      "end": 203.845708
+    },
+    {
+      "type": "pause",
+      "seconds": 2.0,
+      "section": "Spoken Outro",
+      "start": 203.845708,
+      "end": 205.845708
+    }
+  ]
+}

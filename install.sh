@@ -5,6 +5,7 @@
 #   ./install.sh --core        core tool only (slideshows, beat sync, titles, your own clips)
 #   ./install.sh --with-3d     Intel Mac: also try CPU 3D depth motion (old PyTorch, slow, untested)
 #   ./install.sh --models      also download the AI models now (~37 GB) instead of on first use
+#   ./install.sh --core --with-audio --models  local narration and its ~354 MB models only
 #
 # Nothing here needs a paid service. The optional Claude "director" needs ANTHROPIC_API_KEY.
 set -euo pipefail
@@ -14,15 +15,22 @@ cd "$(dirname "$0")"
 CORE_ONLY=0
 WITH_3D=0
 PREFETCH=0
+WITH_AUDIO=0
 for arg in "$@"; do
   case "$arg" in
     --core) CORE_ONLY=1 ;;
     --with-3d) WITH_3D=1 ;;
     --models) PREFETCH=1 ;;
-    -h|--help) sed -n '2,9p' "$0"; exit 0 ;;
+    --with-audio) WITH_AUDIO=1 ;;
+    -h|--help) sed -n '2,10p' "$0"; exit 0 ;;
     *) echo "unknown option: $arg (see --help)" >&2; exit 2 ;;
   esac
 done
+
+if [[ "$WITH_AUDIO" == 1 && "$WITH_3D" == 1 ]]; then
+  echo "Audio requires NumPy 2; experimental Intel --with-3d uses NumPy 1. Use separate environments." >&2
+  exit 2
+fi
 
 say() { printf '\n==> %s\n' "$*"; }
 OS="$(uname -s)"
@@ -107,7 +115,15 @@ else
   "$VPIP" install -q -e '.[ai]'
 fi
 
-# ---- 4. Optional: download models now ----
+if [[ "$WITH_AUDIO" == 1 ]]; then
+  say "Installing local CPU narration (Kokoro; no GPU needed)"
+  "$VPIP" install -q -e '.[audio]'
+  if [[ "$PREFETCH" == 1 ]]; then
+    "$VPY" -m img2vid speak --download-models
+  fi
+fi
+
+# ---- 4. Optional: download image/video models now ----
 if [[ "$PREFETCH" == 1 && "$HAS_GPU" == 1 && "$CORE_ONLY" == 0 ]]; then
   say "Downloading AI models (~37 GB) into ~/.cache/huggingface"
   "$VPY" - <<'EOF'

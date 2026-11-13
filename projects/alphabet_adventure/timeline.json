@@ -1,0 +1,571 @@
+{
+  "fps": 24,
+  "duration": 173.83333333333334,
+  "sections": [
+    {
+      "kind": "intro",
+      "heading": "Six letters. A big adventure!",
+      "badge": "AGES 3–5",
+      "card_title": "Hello, explorer!",
+      "image_index": 0,
+      "start": 0.0,
+      "duration": 9.208333333333334,
+      "end": 9.208333333333334
+    },
+    {
+      "letter": "A",
+      "word": "Apple",
+      "color": "#BC343E",
+      "image_prompt": "One large fresh red apple with a short brown stem and one small green leaf, standing upright on the floor. Glossy natural red skin, simple appealing shape, gentle highlight. This is an ordinary apple without a face, arms or legs. The apple is the only object in the scene.",
+      "motion_prompt": "A single red apple rests on a cream studio floor. Its small green leaf gently sways once while the apple stays still. Preserve the exact apple shape, stem, colors and background. Static camera. No text, new objects or face.",
+      "kind": "letter",
+      "heading": "Meet the letter A",
+      "badge": "LETTER 1 OF 6",
+      "image_index": 0,
+      "start": 9.208333333333334,
+      "duration": 15.041666666666666,
+      "end": 24.25
+    },
+    {
+      "letter": "B",
+      "word": "Ball",
+      "color": "#1764A7",
+      "image_prompt": "One round colorful rubber play ball divided into broad blue, yellow and coral-red curved panels. The ball rests on the floor with a soft shadow. Smooth friendly toy material, no writing or logo, no face, arms or legs. Only one ball, completely visible.",
+      "motion_prompt": "One colorful rubber ball gently rocks a little to one side and settles on the cream floor. Preserve its round shape and blue, yellow and coral-red panels. Static camera, no extra balls, no text, no change of background.",
+      "kind": "letter",
+      "heading": "Meet the letter B",
+      "badge": "LETTER 2 OF 6",
+      "image_index": 1,
+      "start": 24.25,
+      "duration": 14.666666666666664,
+      "end": 38.916666666666664
+    },
+    {
+      "letter": "C",
+      "word": "Cat",
+      "color": "#8C4CAD",
+      "image_prompt": "One adorable fluffy orange tabby kitten sitting upright, facing slightly toward the viewer, with two triangular ears, two bright green eyes, a small pink nose, four natural paws and one curled tail visible beside its body. Friendly relaxed closed-mouth smile. No clothes, collar, accessories or additional animals.",
+      "motion_prompt": "The seated orange kitten slowly blinks once and gently moves the tip of its curled tail. All four paws stay on the floor. Preserve its face, triangular ears, green eyes, fur pattern and proportions. Locked camera, no new animals or text.",
+      "kind": "letter",
+      "heading": "Meet the letter C",
+      "badge": "LETTER 3 OF 6",
+      "image_index": 2,
+      "start": 38.916666666666664,
+      "duration": 15.458333333333336,
+      "end": 54.375
+    },
+    {
+      "letter": "D",
+      "word": "Dog",
+      "color": "#217562",
+      "image_prompt": "One adorable golden-brown puppy sitting upright with two soft floppy ears, large gentle brown eyes, a dark round nose, four natural paws and one visible short tail. Friendly relaxed expression. Clearly a dog, distinct from a cat. No clothes, collar, accessories or other animals.",
+      "motion_prompt": "The golden-brown puppy sits with all paws steady and slowly wags its single tail. Its floppy ears and friendly face stay stable. Preserve its anatomy, fur color and background. Locked camera. No new animals, objects or text.",
+      "kind": "letter",
+      "heading": "Meet the letter D",
+      "badge": "LETTER 4 OF 6",
+      "image_index": 3,
+      "start": 54.375,
+      "duration": 14.666666666666671,
+      "end": 69.04166666666667
+    },
+    {
+      "letter": "E",
+      "word": "Elephant",
+      "color": "#9D4C16",
+      "image_prompt": "One adorable small gray baby elephant standing with all four sturdy feet visible, two large rounded ears, one long gently curved trunk, two expressive brown eyes and one short tail. Rounded natural elephant body, no tusks, friendly calm expression. The trunk is separate from the legs and clearly readable. No clothing or accessories.",
+      "motion_prompt": "The baby elephant stands still on four feet and gently sways its single trunk a few centimeters. Preserve the same two ears, four legs, gray skin and friendly face. Locked camera. No walking, extra limbs, new objects or text.",
+      "kind": "letter",
+      "heading": "Meet the letter E",
+      "badge": "LETTER 5 OF 6",
+      "image_index": 4,
+      "start": 69.04166666666667,
+      "duration": 15.375,
+      "end": 84.41666666666667
+    },
+    {
+      "letter": "F",
+      "word": "Fish",
+      "color": "#146D91",
+      "image_prompt": "One adorable orange goldfish viewed from the side with a slight turn toward the viewer, a rounded body, natural fins, one fan-shaped tail and a large friendly visible eye. Suspended in clear pale turquoise underwater space with a few tiny soft bubbles and gentle light rays. Entire fish visible, no bowl, no hooks, no legs, no other fish. Calm bright child-friendly underwater scene.",
+      "motion_prompt": "The single orange goldfish gently fans its tail and fins while hovering in the same place underwater. The background remains still. Preserve its body, eye, fins, colors and size. Locked camera, no additional fish, no text.",
+      "kind": "letter",
+      "heading": "Meet the letter F",
+      "badge": "LETTER 6 OF 6",
+      "image_index": 5,
+      "start": 84.41666666666667,
+      "duration": 15.166666666666657,
+      "end": 99.58333333333333
+    },
+    {
+      "kind": "recap",
+      "heading": "Say the letters with me!",
+      "badge": "LET'S REMEMBER",
+      "image_index": 2,
+      "card_title": "All six letters",
+      "start": 99.58333333333333,
+      "duration": 15.25,
+      "end": 114.83333333333333
+    },
+    {
+      "letter": "C",
+      "word": "Cat",
+      "color": "#8C4CAD",
+      "image_prompt": "One adorable fluffy orange tabby kitten sitting upright, facing slightly toward the viewer, with two triangular ears, two bright green eyes, a small pink nose, four natural paws and one curled tail visible beside its body. Friendly relaxed closed-mouth smile. No clothes, collar, accessories or additional animals.",
+      "motion_prompt": "The seated orange kitten slowly blinks once and gently moves the tip of its curled tail. All four paws stay on the floor. Preserve its face, triangular ears, green eyes, fur pattern and proportions. Locked camera, no new animals or text.",
+      "options": [
+        "A",
+        "C",
+        "F"
+      ],
+      "kind": "quiz",
+      "heading": "Let's play: find the letter!",
+      "badge": "GAME 1 OF 3",
+      "image_index": 2,
+      "start": 114.83333333333333,
+      "duration": 16.375000000000014,
+      "end": 131.20833333333334
+    },
+    {
+      "letter": "E",
+      "word": "Elephant",
+      "color": "#9D4C16",
+      "image_prompt": "One adorable small gray baby elephant standing with all four sturdy feet visible, two large rounded ears, one long gently curved trunk, two expressive brown eyes and one short tail. Rounded natural elephant body, no tusks, friendly calm expression. The trunk is separate from the legs and clearly readable. No clothing or accessories.",
+      "motion_prompt": "The baby elephant stands still on four feet and gently sways its single trunk a few centimeters. Preserve the same two ears, four legs, gray skin and friendly face. Locked camera. No walking, extra limbs, new objects or text.",
+      "options": [
+        "B",
+        "D",
+        "E"
+      ],
+      "kind": "quiz",
+      "heading": "Let's play: find the letter!",
+      "badge": "GAME 2 OF 3",
+      "image_index": 4,
+      "start": 131.20833333333334,
+      "duration": 16.25,
+      "end": 147.45833333333334
+    },
+    {
+      "letter": "B",
+      "word": "Ball",
+      "color": "#1764A7",
+      "image_prompt": "One round colorful rubber play ball divided into broad blue, yellow and coral-red curved panels. The ball rests on the floor with a soft shadow. Smooth friendly toy material, no writing or logo, no face, arms or legs. Only one ball, completely visible.",
+      "motion_prompt": "One colorful rubber ball gently rocks a little to one side and settles on the cream floor. Preserve its round shape and blue, yellow and coral-red panels. Static camera, no extra balls, no text, no change of background.",
+      "options": [
+        "F",
+        "B",
+        "A"
+      ],
+      "kind": "quiz",
+      "heading": "Let's play: find the letter!",
+      "badge": "GAME 3 OF 3",
+      "image_index": 1,
+      "start": 147.45833333333334,
+      "duration": 16.083333333333314,
+      "end": 163.54166666666666
+    },
+    {
+      "kind": "outro",
+      "heading": "You are an alphabet explorer!",
+      "badge": "WELL DONE",
+      "image_index": 5,
+      "card_title": "Keep exploring!",
+      "start": 163.54166666666666,
+      "duration": 10.291666666666686,
+      "end": 173.83333333333334
+    }
+  ],
+  "events": [
+    {
+      "image": "overlays/000.png",
+      "start": 0.0,
+      "duration": 9.208333333333334,
+      "phase": "talk",
+      "section": 0
+    },
+    {
+      "image": "overlays/001.png",
+      "start": 9.208333333333334,
+      "duration": 7.333333333333333,
+      "phase": "talk",
+      "section": 1
+    },
+    {
+      "image": "overlays/002.png",
+      "start": 16.541666666666668,
+      "duration": 1,
+      "phase": "wait",
+      "section": 1
+    },
+    {
+      "image": "overlays/003.png",
+      "start": 17.541666666666668,
+      "duration": 1,
+      "phase": "wait",
+      "section": 1
+    },
+    {
+      "image": "overlays/004.png",
+      "start": 18.541666666666668,
+      "duration": 1,
+      "phase": "wait",
+      "section": 1
+    },
+    {
+      "image": "overlays/005.png",
+      "start": 19.541666666666668,
+      "duration": 4.708333333333333,
+      "phase": "answer",
+      "section": 1
+    },
+    {
+      "image": "overlays/006.png",
+      "start": 24.25,
+      "duration": 7.166666666666667,
+      "phase": "talk",
+      "section": 2
+    },
+    {
+      "image": "overlays/007.png",
+      "start": 31.416666666666668,
+      "duration": 1,
+      "phase": "wait",
+      "section": 2
+    },
+    {
+      "image": "overlays/008.png",
+      "start": 32.416666666666664,
+      "duration": 1,
+      "phase": "wait",
+      "section": 2
+    },
+    {
+      "image": "overlays/009.png",
+      "start": 33.416666666666664,
+      "duration": 1,
+      "phase": "wait",
+      "section": 2
+    },
+    {
+      "image": "overlays/010.png",
+      "start": 34.416666666666664,
+      "duration": 4.5,
+      "phase": "answer",
+      "section": 2
+    },
+    {
+      "image": "overlays/011.png",
+      "start": 38.916666666666664,
+      "duration": 7.541666666666667,
+      "phase": "talk",
+      "section": 3
+    },
+    {
+      "image": "overlays/012.png",
+      "start": 46.458333333333336,
+      "duration": 1,
+      "phase": "wait",
+      "section": 3
+    },
+    {
+      "image": "overlays/013.png",
+      "start": 47.458333333333336,
+      "duration": 1,
+      "phase": "wait",
+      "section": 3
+    },
+    {
+      "image": "overlays/014.png",
+      "start": 48.458333333333336,
+      "duration": 1,
+      "phase": "wait",
+      "section": 3
+    },
+    {
+      "image": "overlays/015.png",
+      "start": 49.458333333333336,
+      "duration": 4.916666666666667,
+      "phase": "answer",
+      "section": 3
+    },
+    {
+      "image": "overlays/016.png",
+      "start": 54.375,
+      "duration": 7.125,
+      "phase": "talk",
+      "section": 4
+    },
+    {
+      "image": "overlays/017.png",
+      "start": 61.5,
+      "duration": 1,
+      "phase": "wait",
+      "section": 4
+    },
+    {
+      "image": "overlays/018.png",
+      "start": 62.5,
+      "duration": 1,
+      "phase": "wait",
+      "section": 4
+    },
+    {
+      "image": "overlays/019.png",
+      "start": 63.5,
+      "duration": 1,
+      "phase": "wait",
+      "section": 4
+    },
+    {
+      "image": "overlays/020.png",
+      "start": 64.5,
+      "duration": 4.541666666666667,
+      "phase": "answer",
+      "section": 4
+    },
+    {
+      "image": "overlays/021.png",
+      "start": 69.04166666666667,
+      "duration": 7.375,
+      "phase": "talk",
+      "section": 5
+    },
+    {
+      "image": "overlays/022.png",
+      "start": 76.41666666666667,
+      "duration": 1,
+      "phase": "wait",
+      "section": 5
+    },
+    {
+      "image": "overlays/023.png",
+      "start": 77.41666666666667,
+      "duration": 1,
+      "phase": "wait",
+      "section": 5
+    },
+    {
+      "image": "overlays/024.png",
+      "start": 78.41666666666667,
+      "duration": 1,
+      "phase": "wait",
+      "section": 5
+    },
+    {
+      "image": "overlays/025.png",
+      "start": 79.41666666666667,
+      "duration": 5.0,
+      "phase": "answer",
+      "section": 5
+    },
+    {
+      "image": "overlays/026.png",
+      "start": 84.41666666666667,
+      "duration": 7.458333333333333,
+      "phase": "talk",
+      "section": 6
+    },
+    {
+      "image": "overlays/027.png",
+      "start": 91.875,
+      "duration": 1,
+      "phase": "wait",
+      "section": 6
+    },
+    {
+      "image": "overlays/028.png",
+      "start": 92.875,
+      "duration": 1,
+      "phase": "wait",
+      "section": 6
+    },
+    {
+      "image": "overlays/029.png",
+      "start": 93.875,
+      "duration": 1,
+      "phase": "wait",
+      "section": 6
+    },
+    {
+      "image": "overlays/030.png",
+      "start": 94.875,
+      "duration": 4.708333333333333,
+      "phase": "answer",
+      "section": 6
+    },
+    {
+      "image": "overlays/031.png",
+      "start": 99.58333333333333,
+      "duration": 6.208333333333333,
+      "phase": "talk",
+      "section": 7
+    },
+    {
+      "image": "overlays/032.png",
+      "start": 105.79166666666667,
+      "duration": 1,
+      "phase": "wait",
+      "section": 7
+    },
+    {
+      "image": "overlays/033.png",
+      "start": 106.79166666666667,
+      "duration": 1,
+      "phase": "wait",
+      "section": 7
+    },
+    {
+      "image": "overlays/034.png",
+      "start": 107.79166666666667,
+      "duration": 1,
+      "phase": "wait",
+      "section": 7
+    },
+    {
+      "image": "overlays/035.png",
+      "start": 108.79166666666667,
+      "duration": 1,
+      "phase": "wait",
+      "section": 7
+    },
+    {
+      "image": "overlays/036.png",
+      "start": 109.79166666666667,
+      "duration": 5.041666666666667,
+      "phase": "answer",
+      "section": 7
+    },
+    {
+      "image": "overlays/037.png",
+      "start": 114.83333333333333,
+      "duration": 7.416666666666667,
+      "phase": "talk",
+      "section": 8
+    },
+    {
+      "image": "overlays/038.png",
+      "start": 122.25,
+      "duration": 1,
+      "phase": "wait",
+      "section": 8
+    },
+    {
+      "image": "overlays/039.png",
+      "start": 123.25,
+      "duration": 1,
+      "phase": "wait",
+      "section": 8
+    },
+    {
+      "image": "overlays/040.png",
+      "start": 124.25,
+      "duration": 1,
+      "phase": "wait",
+      "section": 8
+    },
+    {
+      "image": "overlays/041.png",
+      "start": 125.25,
+      "duration": 1,
+      "phase": "wait",
+      "section": 8
+    },
+    {
+      "image": "overlays/042.png",
+      "start": 126.25,
+      "duration": 4.958333333333333,
+      "phase": "answer",
+      "section": 8
+    },
+    {
+      "image": "overlays/043.png",
+      "start": 131.20833333333334,
+      "duration": 7.416666666666667,
+      "phase": "talk",
+      "section": 9
+    },
+    {
+      "image": "overlays/044.png",
+      "start": 138.625,
+      "duration": 1,
+      "phase": "wait",
+      "section": 9
+    },
+    {
+      "image": "overlays/045.png",
+      "start": 139.625,
+      "duration": 1,
+      "phase": "wait",
+      "section": 9
+    },
+    {
+      "image": "overlays/046.png",
+      "start": 140.625,
+      "duration": 1,
+      "phase": "wait",
+      "section": 9
+    },
+    {
+      "image": "overlays/047.png",
+      "start": 141.625,
+      "duration": 1,
+      "phase": "wait",
+      "section": 9
+    },
+    {
+      "image": "overlays/048.png",
+      "start": 142.625,
+      "duration": 4.833333333333333,
+      "phase": "answer",
+      "section": 9
+    },
+    {
+      "image": "overlays/049.png",
+      "start": 147.45833333333334,
+      "duration": 7.291666666666667,
+      "phase": "talk",
+      "section": 10
+    },
+    {
+      "image": "overlays/050.png",
+      "start": 154.75,
+      "duration": 1,
+      "phase": "wait",
+      "section": 10
+    },
+    {
+      "image": "overlays/051.png",
+      "start": 155.75,
+      "duration": 1,
+      "phase": "wait",
+      "section": 10
+    },
+    {
+      "image": "overlays/052.png",
+      "start": 156.75,
+      "duration": 1,
+      "phase": "wait",
+      "section": 10
+    },
+    {
+      "image": "overlays/053.png",
+      "start": 157.75,
+      "duration": 1,
+      "phase": "wait",
+      "section": 10
+    },
+    {
+      "image": "overlays/054.png",
+      "start": 158.75,
+      "duration": 4.791666666666667,
+      "phase": "answer",
+      "section": 10
+    },
+    {
+      "image": "overlays/055.png",
+      "start": 163.54166666666666,
+      "duration": 10.291666666666666,
+      "phase": "talk",
+      "section": 11
+    }
+  ]
+}
