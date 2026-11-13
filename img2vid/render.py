@@ -249,6 +249,7 @@ class _Scene:
         self.clip_fps = 24.0  # LTX clips are generated at 24 fps
         self.clip_speed = float(scene.get("clip_speed", 0.8))  # a touch of slow motion
         self.ping_pong = True
+        self.clip_start = 0.0
         self._flow_pair = (-1, None)  # cached optical flow for one frame pair
         if clip and clip.lower().endswith(VIDEO_EXTS):
             # A finished video (e.g. from an online AI): play it forwards once, slowed
@@ -265,7 +266,10 @@ class _Scene:
             if scene.get("clip_loop") == "forward":
                 self.ping_pong = False
                 length = len(frames) / self.clip_fps
-                self.clip_speed = min(1.0, length / self.duration)
+                # clip_start: seconds into the clip to begin, so a scene shown several
+                # times (a dance edit) can use a different part of its clip each time.
+                self.clip_start = min(float(scene.get("clip_start", 0.0)), length * 0.9)
+                self.clip_speed = min(1.0, (length - self.clip_start) / self.duration)
         else:
             frames = [cv2.cvtColor(np.asarray(load_image(scene["image"])), cv2.COLOR_RGB2BGR)]
         depth_map = None
@@ -365,7 +369,7 @@ class _Scene:
         model's drift (faces, shapes) never builds up over a long scene.
         """
         n = len(self.frames)
-        pos = u * self.duration * self.clip_fps * self.clip_speed
+        pos = (self.clip_start + u * self.duration * self.clip_speed) * self.clip_fps
         if self.ping_pong:
             period = 2 * (n - 1)
             pos %= period

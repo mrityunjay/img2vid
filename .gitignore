@@ -30,3 +30,7 @@ __pycache__/
 *.pt
 *.log
 projects/*/test/
+
+# generated per machine (hold local clip-cache paths); rebuild with motion.py / dance.py
+projects/brush_brush_karo/anim.json
+projects/brush_brush_karo/dance.json

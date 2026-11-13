@@ -1,5 +1,6 @@
 """Beat-synced dance edit: one shot per musical bar, hard cuts on the downbeat, the 12
-scenes cycled in story order, and a zoom kick on every beat.
+scenes cycled in story order (with their AI motion clips from anim.json when present),
+and a zoom kick on every beat.
 
 Run from the repo root:
   .venv/bin/python projects/brush_brush_karo/dance.py
@@ -20,6 +21,7 @@ TITLE = "ब्रश ब्रश करो"
 PULSE = 0.035          # 3.5% zoom kick
 KICKS_PER_BEAT = 2     # this song: 67.5 BPM beat grid; kicking on half-beats feels like 135 BPM
 MOTIONS = ["zoom_in", "pan", "zoom_out"]
+CLIP_STARTS = [0.0, 1.2, 0.6, 1.4, 0.3]  # seconds into the clip, per lap through the scenes
 
 
 def main():
@@ -27,6 +29,14 @@ def main():
     images = [os.path.join(HERE, "images", f"{n:02d}.png") for n in range(1, 13)]
     rel = lambda p: os.path.relpath(p, ROOT)  # paths relative to the repo root (run from there)
     song_rel, images_rel = rel(song), [rel(p) for p in images]
+    # AI motion clips from animate-hq (anim.json), matched by image; stills otherwise.
+    clips = {}
+    anim = os.path.join(HERE, "anim.json")
+    if os.path.exists(anim):
+        with open(anim) as f:
+            for sc in json.load(f)["scenes"]:
+                if sc.get("clip") and os.path.exists(sc["clip"]):
+                    clips[sc["image"]] = sc["clip"]
     period, bars, length = music.beat_grid(song)
     # Shot boundaries on bar lines; the first shot starts at 0, the last runs to the end.
     cuts = [0.0] + [float(b) for b in bars[1:] if b < length - 1.0] + [length]
@@ -43,6 +53,9 @@ def main():
             "focus": [0.5, 0.5],
             "transition": "cut",
         })
+        clip = clips.get(images_rel[n])
+        if clip:  # each lap plays a different stretch of the 5 s clip
+            scenes[-1].update(clip=clip, clip_loop="forward", clip_start=CLIP_STARTS[lap % 5])
     scenes[0]["title_y"] = 0.15
     story = {
         "version": 1, "aspect": "16:9", "fps": 30, "music": song_rel, "title": TITLE,
@@ -56,6 +69,7 @@ def main():
         json.dump(story, f, indent=2, ensure_ascii=False)
         f.write("\n")
     total = sum(s["duration"] for s in scenes)
+    print(f"{len(clips)}/12 scenes have AI motion clips")
     print(f"wrote {out}: {len(scenes)} shots, {total:.1f}s (song {length:.1f}s), "
           f"bar {period * 4:.2f}s, kick every {period / KICKS_PER_BEAT:.2f}s")
 

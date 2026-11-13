@@ -95,7 +95,19 @@ accelerate 1.15.0, huggingface_hub 2.4.0, numpy 2.5.4, pillow 13.0.0, opencv-pyt
 
 ## Install
 
-Clone or copy this folder, then follow the section for your system. All commands are run
+**Quickest:** run `./install.sh` from the project folder. It installs the system tools
+(Homebrew on macOS, apt on Linux), creates `.venv`, installs the tool, rebuilds Pillow for
+Hindi text, and adds the local AI parts only where the hardware can run them (Apple Silicon
+or NVIDIA). Options: `--core` (no AI), `--models` (download the ~37 GB of models now),
+`--with-3d` (Intel Mac: experimental CPU depth motion).
+
+**Intel Macs** run the core tool (slideshows, beat-synced cuts, titles, `clips`) fine with
+no paid service. AI motion (`animate`, `animate-hq`) and `imagine` are not supported there:
+PyTorch has no GPU support for Intel Iris and its last Intel-Mac release is 2.2.2, older
+than these models need. Make images and clips on an Apple Silicon/NVIDIA machine or an
+online service, then render anywhere.
+
+Or step by step: clone or copy this folder, then follow the section for your system. All commands are run
 from the project folder (the one containing `pyproject.toml`).
 
 ### macOS
@@ -497,6 +509,7 @@ Per scene:
 | `clip_speed` | `0.8` | playback speed for 0.9.5 `.npz` clips (ping-pong loop) |
 | `clip_loop` | `"forward"` | play once forwards, slowed to fill the scene (set by `animate-hq`) |
 | `video_speed` | `0.1`–`1.0` | override the automatic slow-down for video-file clips |
+| `clip_start` | `1.2` | seconds into a forward clip to start from (vary it when one scene repeats) |
 | `title_y` | `0.2` | vertical position of the title (0 = top, 1 = bottom; default `0.45`) |
 
 ---
