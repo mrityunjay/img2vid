@@ -236,6 +236,7 @@ class _Scene:
         short = min(out_w, out_h)
         max_w = out_w * 0.86
         self.title = _Text(title, int(short * 0.09), max_w, font) if title else None
+        self.title_y = float(scene.get("title_y", 0.45))  # vertical position, 0..1
         caption = (scene.get("caption") or "").strip()
         self.caption = _Text(caption, int(short * 0.055), max_w, font) if caption else None
         ar = out_w / out_h
@@ -248,14 +249,15 @@ class _Scene:
         self.clip_fps = 24.0  # LTX clips are generated at 24 fps
         self.clip_speed = float(scene.get("clip_speed", 0.8))  # a touch of slow motion
         self.ping_pong = True
+        self._flow_pair = (-1, None)  # cached optical flow for one frame pair
         if clip and clip.lower().endswith(VIDEO_EXTS):
-            # A finished video (e.g. from an online AI): play it forwards once, slowed just
-            # enough to fill the scene, then hold its last frame.
+            # A finished video (e.g. from an online AI): play it forwards once, slowed
+            # (with optical-flow in-betweens) to fill the whole scene.
             frames, self.clip_fps = _read_video(clip)
             self.ping_pong = False
             length = len(frames) / self.clip_fps
             self.clip_speed = float(scene.get("video_speed")
-                                    or min(1.0, max(0.75, length / self.duration)))
+                                    or min(1.0, length / self.duration))
             zoom = min(zoom, 1.04)  # the video has its own camera; barely add to it
         elif clip:
             frames = list(np.load(clip)["frames"])  # BGR uint8, N x H x W x 3
@@ -263,7 +265,7 @@ class _Scene:
             if scene.get("clip_loop") == "forward":
                 self.ping_pong = False
                 length = len(frames) / self.clip_fps
-                self.clip_speed = min(1.0, max(0.75, length / self.duration))
+                self.clip_speed = min(1.0, length / self.duration)
         else:
             frames = [cv2.cvtColor(np.asarray(load_image(scene["image"])), cv2.COLOR_RGB2BGR)]
         depth_map = None
@@ -348,7 +350,7 @@ class _Scene:
         rise = self.out_h * 0.02  # text drifts up slightly as it fades in
         if self.title:
             op = _text_opacity(ts, self.duration, 0.3)
-            self.title.draw(frame, self.out_w / 2, self.out_h * 0.45 + rise * (1 - op), op)
+            self.title.draw(frame, self.out_w / 2, self.out_h * self.title_y + rise * (1 - op), op)
         if self.caption:
             op = _text_opacity(ts, self.duration, 0.6 if self.title else 0.4)
             cy = self.out_h * 0.86 - self.caption.h / 2 + rise * (1 - op)
@@ -356,7 +358,8 @@ class _Scene:
         return frame
 
     def _clip_frame(self, u):
-        """Clip frame for scene time u: slowed down, ping-ponged, blended between frames.
+        """Clip frame for scene time u: slowed to fill the scene (forward clips) or
+        ping-ponged (0.9.5 clips), with in-between frames.
 
         Ping-pong keeps every frame within one clip length of the source image, so the
         model's drift (faces, shapes) never builds up over a long scene.
@@ -374,7 +377,29 @@ class _Scene:
         frac = pos - i
         if frac < 0.02 or i >= n - 1:
             return self.frames[min(i, n - 1)]
-        return cv2.addWeighted(self.frames[i], 1 - frac, self.frames[i + 1], frac, 0)
+        if self.ping_pong:
+            return cv2.addWeighted(self.frames[i], 1 - frac, self.frames[i + 1], frac, 0)
+        return self._interpolate(i, frac)
+
+    def _interpolate(self, i, t):
+        """In-between frame from optical flow, so slowed clips move smoothly instead of
+        stuttering (repeated frames) or ghosting (cross-blended frames)."""
+        a, b = self.frames[i], self.frames[i + 1]
+        if self._flow_pair[0] != i:
+            h, w = a.shape[:2]
+            small = (w // 2, h // 2)
+            ga = cv2.cvtColor(cv2.resize(a, small), cv2.COLOR_BGR2GRAY)
+            gb = cv2.cvtColor(cv2.resize(b, small), cv2.COLOR_BGR2GRAY)
+            dis = cv2.DISOpticalFlow_create(cv2.DISOPTICAL_FLOW_PRESET_FAST)
+            flow = cv2.resize(dis.calc(ga, gb, None), (w, h)) * 2.0
+            gx, gy = np.meshgrid(np.arange(w, dtype=np.float32), np.arange(h, dtype=np.float32))
+            self._flow_pair = (i, (flow, gx, gy))
+        flow, gx, gy = self._flow_pair[1]
+        fx, fy = flow[..., 0], flow[..., 1]
+        wa = cv2.remap(a, gx - t * fx, gy - t * fy, cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT)
+        wb = cv2.remap(b, gx + (1 - t) * fx, gy + (1 - t) * fy, cv2.INTER_LINEAR,
+                       borderMode=cv2.BORDER_REFLECT)
+        return cv2.addWeighted(wa, 1 - t, wb, t, 0)
 
     def _parallax(self, src, m, x, y, s, e):
         """Backward-warp with per-pixel depth: near pixels zoom and sway more than far ones."""

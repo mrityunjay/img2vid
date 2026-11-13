@@ -1,0 +1,122 @@
+{
+  "aspect": "9:16",
+  "fps": 30,
+  "music": "/Users/mrityunjaykum.ranjan/plan_project/projects/pappa/youtube/short_music.m4a",
+  "title": "पप्पा जल्दी आ जाना",
+  "font": null,
+  "transition_duration": 1.0,
+  "fade_in": 0.3,
+  "fade_out": 1.5,
+  "scenes": [
+    {
+      "image": "/Users/mrityunjaykum.ranjan/Downloads/pic/Sunset Goodbye at the Cruise Dock.png",
+      "duration": 9.091,
+      "fit": "contain",
+      "motion": "zoom_in",
+      "zoom": 1.12,
+      "focus": [
+        0.6212,
+        0.1933
+      ],
+      "faces": 1,
+      "transition": "crossfade",
+      "depth": true,
+      "motion_prompt": "Pixar-style 3D animation, keep characters' faces and outfits exactly as in the image, smooth natural motion, natural colors and soft lighting as in the image. The father kneels down and hugs his little daughter tightly; she wraps her small arms around his neck. Sea waves roll gently, seagulls glide. Slow camera push in.",
+      "animate": true,
+      "clip_speed": 0.8,
+      "caption": "पापा दूर जा रहे थे...",
+      "title_y": 0.2
+    },
+    {
+      "image": "/Users/mrityunjaykum.ranjan/Downloads/pic/Goodbye Across the Sunset Sky-5.png",
+      "duration": 9.359,
+      "fit": "contain",
+      "motion": "zoom_in",
+      "zoom": 1.12,
+      "focus": [
+        0.8413,
+        0.0762
+      ],
+      "faces": 1,
+      "transition": "crossfade",
+      "depth": true,
+      "motion_prompt": "Pixar-style 3D animation, keep characters' faces and outfits exactly as in the image, smooth natural motion, natural colors and soft lighting as in the image. The little girl hugs her white bunny tighter as she watches her father walk away in the distance. Sunset clouds drift. Slow camera push in.",
+      "animate": true,
+      "clip_speed": 0.8,
+      "caption": "और मैं बस देखती रह गई"
+    },
+    {
+      "image": "/Users/mrityunjaykum.ranjan/Downloads/pic/Gemini_Generated_Image_4iqup04iqup04iqu (2).png",
+      "duration": 9.359,
+      "fit": "contain",
+      "motion": "zoom_in",
+      "zoom": 1.12,
+      "focus": [
+        0.539,
+        0.4772
+      ],
+      "faces": 3,
+      "transition": "crossfade",
+      "depth": true,
+      "motion_prompt": "Pixar-style 3D animation, keep characters' faces and outfits exactly as in the image, smooth natural motion, natural colors and soft lighting as in the image. The little girl lifts her father's photo frame and hugs it to her chest. Lamp light flickers softly. Slow camera push in.",
+      "animate": true,
+      "clip_speed": 0.8,
+      "caption": "हर रात उनकी फोटो से बातें करती हूँ"
+    },
+    {
+      "image": "/Users/mrityunjaykum.ranjan/Downloads/pic/Gemini_Generated_Image_4iqup04iqup04iqu (4).png",
+      "duration": 9.359,
+      "fit": "contain",
+      "motion": "zoom_in",
+      "zoom": 1.12,
+      "focus": [
+        0.575,
+        0.307
+      ],
+      "faces": 2,
+      "transition": "crossfade",
+      "depth": true,
+      "motion_prompt": "Pixar-style 3D animation, keep characters' faces and outfits exactly as in the image, smooth natural motion, natural colors and soft lighting as in the image. The mother gently strokes her daughter's hair while the girl leans on her shoulder. Warm lamp light. Slow camera push in.",
+      "animate": true,
+      "clip_speed": 0.8,
+      "caption": "माँ कहती है, पापा जल्दी आएँगे"
+    },
+    {
+      "image": "/Users/mrityunjaykum.ranjan/Downloads/pic/Gemini_Generated_Image_4iqup04iqup04iqu (5).png",
+      "duration": 9.359,
+      "fit": "contain",
+      "motion": "zoom_out",
+      "zoom": 1.12,
+      "focus": [
+        0.4488,
+        0.283
+      ],
+      "faces": 2,
+      "transition": "crossfade",
+      "depth": true,
+      "motion_prompt": "Pixar-style 3D animation, keep characters' faces and outfits exactly as in the image, smooth natural motion, natural colors and soft lighting as in the image. The little girl in bed slowly closes her eyes and falls asleep hugging her teddy. Moonlight on the blanket. Slow camera pull back.",
+      "animate": true,
+      "clip_speed": 0.8,
+      "caption": "सपनों में रोज़ आते हैं पापा"
+    },
+    {
+      "image": "/Users/mrityunjaykum.ranjan/Downloads/pic/Comforting Bedtime with a Broken Bunny-7.png",
+      "duration": 10.483,
+      "fit": "contain",
+      "motion": "zoom_out",
+      "zoom": 1.12,
+      "focus": [
+        0.4499,
+        0.399
+      ],
+      "faces": 6,
+      "transition": "crossfade",
+      "depth": true,
+      "motion_prompt": "Pixar-style 3D animation, keep characters' faces and outfits exactly as in the image, smooth natural motion, natural colors and soft lighting as in the image. The father gently kisses his daughter's forehead while the mother smiles beside them. Warm night lamp glows. Slow camera pull back.",
+      "animate": true,
+      "clip_speed": 0.8,
+      "caption": "पापा, जल्दी आ जाना"
+    }
+  ],
+  "beat_period": 0.6966
+}

@@ -324,8 +324,8 @@ img2vid animate-hq storyboard.json [-o new.json] [--only 1,3,8] \
 
 How it works: an 8-step distilled pass at low resolution, a 2× latent upscale, a 4-step
 refine pass, then a tiled VAE decode. Every clip is colour-matched back to its source image
-(the model drifts cooler and more saturated). Clips play forwards once; when a clip is
-shorter than its scene it is slowed to at most 0.75× and then holds its last frame. Scenes
+(the model drifts cooler and more saturated). Clips play forwards once and are slowed to
+fill their whole scene, with optical-flow in-between frames, so motion never freezes. Scenes
 with `"animate": false` are skipped and keep 3D motion.
 
 Each scene's `motion_prompt` drives its clip. Prompts work best with one concrete action,
@@ -437,8 +437,9 @@ Per scene:
 | `animate` | `true` / `false` / absent | force AI motion on or off for this scene |
 | `clip` | path | attached motion clip: `.npz` (generated) or a video file |
 | `clip_speed` | `0.8` | playback speed for 0.9.5 `.npz` clips (ping-pong loop) |
-| `clip_loop` | `"forward"` | play once forwards then hold the last frame (set by `animate-hq`) |
-| `video_speed` | `0.5`–`1.0` | override the automatic slow-down for video-file clips |
+| `clip_loop` | `"forward"` | play once forwards, slowed to fill the scene (set by `animate-hq`) |
+| `video_speed` | `0.1`–`1.0` | override the automatic slow-down for video-file clips |
+| `title_y` | `0.2` | vertical position of the title (0 = top, 1 = bottom; default `0.45`) |
 
 ---
 
@@ -517,6 +518,8 @@ The `projects/pappa/` scripts are examples of driving the tool from Python:
 
 - `motion_prompts.py` / `hq_prompts.py` write per-scene prompts into `storyboard.json`.
 - `online_prompts.py` makes `online_clips/` (numbered images + `PROMPTS.md`) for online services.
+- `youtube/make_short.py` builds a 9:16 YouTube Short (`youtube/short.json`) from chosen
+  scenes of the main storyboard, with Hindi captions and the first 52 s of the song.
 
 ---
 
