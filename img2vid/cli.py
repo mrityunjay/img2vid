@@ -170,6 +170,30 @@ def _add_render_args(p: argparse.ArgumentParser) -> None:
     p.add_argument("--preview", action="store_true", help="fast 480p/24fps draft")
 
 
+def _imagine(args) -> None:
+    from . import imagine
+
+    prompts = list(args.prompts)
+    if args.file:
+        with open(args.file, encoding="utf-8") as f:
+            prompts += [ln.strip() for ln in f if ln.strip() and not ln.startswith("#")]
+    if not prompts:
+        sys.exit("error: give a prompt, or --file with one prompt per line")
+    prompts = [p for p in prompts for _ in range(max(1, args.count))]
+    single = os.path.splitext(args.output)[1].lower() in (".png", ".jpg", ".jpeg", ".webp")
+    if single and len(prompts) > 1:
+        sys.exit("error: several images need a folder for -o, not a file name")
+    outputs = [args.output] if single else \
+        [os.path.join(args.output, f"{i:02d}.png") for i in range(1, len(prompts) + 1)]
+    try:
+        w, h = imagine.size_for(args.aspect, args.size)
+        imagine.generate(prompts, outputs, width=w, height=h, steps=args.steps,
+                         seed=args.seed, quant=args.quant)
+    except (imagine.ImagineUnavailable, ValueError) as e:
+        sys.exit(f"error: {e}")
+    print("wrote " + (outputs[0] if single else f"{len(outputs)} images to {args.output}"))
+
+
 def main(argv: list[str] | None = None) -> None:
     parser = argparse.ArgumentParser(prog="img2vid", description="Animate images into a video.")
     sub = parser.add_subparsers(dest="command", required=True)
@@ -203,6 +227,19 @@ def main(argv: list[str] | None = None) -> None:
     clips.add_argument("folder", help="folder of videos named by scene number")
     clips.add_argument("-o", "--output", help="where to save it (default: overwrite)")
 
+    img = sub.add_parser("imagine", help="make high-quality images from text (FLUX.1-schnell)")
+    img.add_argument("prompts", nargs="*", help="one or more prompts (each makes an image)")
+    img.add_argument("-f", "--file", help="text file with one prompt per line")
+    img.add_argument("-o", "--output", default="images",
+                     help="a .png/.jpg file for a single image, else a folder (01.png, 02.png...)")
+    img.add_argument("--aspect", default="1:1", help="1:1, 16:9, 9:16, 4:3, 3:4, 3:2 or 2:3")
+    img.add_argument("--size", help="exact WIDTHxHEIGHT instead of --aspect, e.g. 1536x864")
+    img.add_argument("--count", type=int, default=1, help="variations per prompt")
+    img.add_argument("--steps", type=int, default=4, help="denoising steps (schnell: 1-4)")
+    img.add_argument("--quant", default="q4", choices=["q4", "q5", "q8"],
+                     help="model file: q4 6.8 GB, q5 8.3 GB, q8 12.7 GB (sharper, more memory)")
+    img.add_argument("--seed", type=int, default=0)
+
     rend = sub.add_parser("render", help="render a storyboard JSON")
     rend.add_argument("storyboard")
     _add_render_args(rend)
@@ -223,6 +260,8 @@ def main(argv: list[str] | None = None) -> None:
             _apply_motion(story, args)
             sb.save(story, args.output or args.storyboard)
             print(f"wrote {args.output or args.storyboard}")
+        elif args.command == "imagine":
+            _imagine(args)
         elif args.command == "animate-hq":
             from . import animate_hq
 

@@ -27,8 +27,14 @@ motion = [
   "safetensors>=0.4",
 ]
 
+# text-to-image (img2vid imagine); also needs the motion extra
+image = ["gguf>=0.10"]
+
 [project.scripts]
 img2vid = "img2vid.cli:main"
 
 [tool.setuptools]
 packages = ["img2vid"]
+
+[tool.setuptools.package-data]
+img2vid = ["flux_config/*/*.json"]

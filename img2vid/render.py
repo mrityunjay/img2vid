@@ -441,6 +441,21 @@ def _blend(a, b, p, kind):
     return cv2.addWeighted(a, 1 - p, b, p, 0)
 
 
+def _pulse(frame, t, strength, period, offset):
+    """Zoom the frame in by up to `strength` right on each beat, easing back before the
+    next one, so the picture 'bounces' to the music."""
+    if t < offset:
+        return frame
+    since = (t - offset) % period
+    k = strength * float(np.exp(-since / (0.25 * period)))
+    if k < 0.002:
+        return frame
+    h, w = frame.shape[:2]
+    cw, ch = int(round(w / (1 + k))), int(round(h / (1 + k)))
+    x, y = (w - cw) // 2, (h - ch) // 2
+    return cv2.resize(frame[y:y + ch, x:x + cw], (w, h), interpolation=cv2.INTER_LINEAR)
+
+
 def _timeline(storyboard):
     scenes = storyboard["scenes"]
     td = float(storyboard.get("transition_duration", 0.8))
@@ -491,6 +506,12 @@ def render(storyboard: dict, out_path: str, short_side: int = 1080, preview: boo
     n_frames = int(round(total * fps))
     fade_in = float(storyboard.get("fade_in", 0.0))
     fade_out = float(storyboard.get("fade_out", 0.0))
+    # Dance "kick": a quick zoom bump on every beat. beat_pulse = strength (0.03 = 3%),
+    # beat_pulse_period = seconds between kicks, beat_offset = time of the first kick.
+    pulse = None
+    if storyboard.get("beat_pulse") and storyboard.get("beat_pulse_period"):
+        pulse = (float(storyboard["beat_pulse"]), float(storyboard["beat_pulse_period"]),
+                 float(storyboard.get("beat_offset", 0.0)))
 
     proc = subprocess.Popen(
         _ffmpeg_cmd(out_path, w, h, fps, total, storyboard.get("music"), preview),
@@ -523,6 +544,9 @@ def render(storyboard: dict, out_path: str, short_side: int = 1080, preview: boo
                 frame = _blend(frames[0], frames[1], p, scenes[a].get("transition", "crossfade"))
             else:
                 frame = frames[0]
+
+            if pulse:
+                frame = _pulse(frame, t, *pulse)
 
             gain = 1.0
             if fade_in and t < fade_in:

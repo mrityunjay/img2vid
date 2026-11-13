@@ -15,6 +15,9 @@ There are four levels of motion, from fastest to most lifelike:
 | `ai` | People and things move (LTX-Video 0.9.5, 480p) | PyTorch + ~24 GB of models | ~5 min per clip on a Mac |
 | `animate-hq` | Real actions (hugs, walking), 1600×896 (LTX-Video 0.9.8 + 2× upscaler) | the above + ~6.5 GB more | ~6 min per clip on a Mac |
 
+It can also **make the pictures**: `img2vid imagine "prompt"` generates high-quality images
+from text with FLUX.1-schnell, locally (~1.5 min per 1 MP image on an 18 GB Mac).
+
 You can also make clips with any online image-to-video service and drop them in
 (`img2vid clips`). Everything runs locally and free. The only optional cloud piece is the
 Claude "AI director", which needs an Anthropic API key.
@@ -109,6 +112,9 @@ python3.12 -m venv .venv
 # 3. Optional: Claude director and local AI motion
 .venv/bin/pip install -e '.[ai,motion]'
 
+# 3b. Optional: text-to-image (img2vid imagine); needs [motion] too
+.venv/bin/pip install -e '.[motion,image]'
+
 # 4. Optional but needed for Hindi/Indic titles: rebuild Pillow against libraqm
 .venv/bin/pip install --force-reinstall --no-deps --no-binary pillow "pillow==13.0.0"
 .venv/bin/python -c "from PIL import features; print(features.check('raqm'))"   # must print True
@@ -133,7 +139,7 @@ python3 -m venv .venv
 # 3. Optional: NVIDIA GPU. Install the CUDA build of PyTorch FIRST
 #    (pick the command for your CUDA version at https://pytorch.org/get-started/locally/)
 .venv/bin/pip install torch --index-url https://download.pytorch.org/whl/cu124
-.venv/bin/pip install -e '.[ai,motion]'
+.venv/bin/pip install -e '.[ai,motion,image]'
 
 # 4. Optional: Indic text shaping
 .venv/bin/pip install --force-reinstall --no-deps --no-binary pillow "pillow==13.0.0"
@@ -165,7 +171,7 @@ py -3.12 -m venv .venv
 
 # NVIDIA GPU: CUDA PyTorch first (see pytorch.org for your CUDA version)
 .venv\Scripts\pip install torch --index-url https://download.pytorch.org/whl/cu124
-.venv\Scripts\pip install -e ".[ai,motion]"
+.venv\Scripts\pip install -e ".[ai,motion,image]"
 ```
 
 Use `.venv\Scripts\img2vid` wherever this README says `.venv/bin/img2vid`. The built-in font
@@ -194,6 +200,10 @@ are cached in `~/.cache/huggingface/hub`, or under `$HF_HOME` if you set it.
 | `Lightricks/LTX-Video-0.9.5` (full repo: T5 text encoder ~18 GB, transformer ~3.6 GB, VAE ~2.3 GB) | `--motion ai`, `animate`; its **text encoder is also used by `animate-hq`** | ~24 GB | first `ai` or `animate-hq` run |
 | `Lightricks/LTX-Video` → file `ltxv-2b-0.9.8-distilled.safetensors` | `animate-hq` | 6.34 GB | first `animate-hq` run |
 | `Lightricks/ltxv-spatial-upscaler-0.9.7` → folder `latent_upsampler/` | `animate-hq` 2× upscale | 0.51 GB | first `animate-hq` run |
+| `city96/FLUX.1-schnell-gguf` → file `flux1-schnell-Q4_K_S.gguf` (4-bit FLUX.1-schnell; `--quant q5`/`q8` pick `Q5_K_S` 8.3 GB / `Q8_0` 12.7 GB) | `imagine` | 6.8 GB | first `imagine` run |
+| `comfyanonymous/flux_text_encoders` → file `clip_l.safetensors` | `imagine` CLIP-L encoder | 0.25 GB | first `imagine` run |
+| `ffxvs/vae-flux` → file `ae.safetensors` (FLUX autoencoder) | `imagine` | 0.34 GB | first `imagine` run |
+| `openai/clip-vit-large-patch14` (config + tokenizer files only) | `imagine` | < 5 MB | first `imagine` run |
 | Claude (`claude-opus-5-5` by default) | `--ai` / `--prompt` | cloud API, nothing downloaded | when used |
 
 To download everything ahead of time (useful on slow or metered networks):
@@ -207,12 +217,22 @@ snapshot_download("Lightricks/LTX-Video-0.9.5")
 hf_hub_download("Lightricks/LTX-Video", "ltxv-2b-0.9.8-distilled.safetensors")
 snapshot_download("Lightricks/ltxv-spatial-upscaler-0.9.7",
                   allow_patterns=["latent_upsampler/*", "model_index.json"])
+# text-to-image (imagine); it also uses the LTX-Video-0.9.5 T5 encoder above
+hf_hub_download("city96/FLUX.1-schnell-gguf", "flux1-schnell-Q4_K_S.gguf")
+hf_hub_download("comfyanonymous/flux_text_encoders", "clip_l.safetensors")
+hf_hub_download("ffxvs/vae-flux", "ae.safetensors")
+snapshot_download("openai/clip-vit-large-patch14", allow_patterns=["*.json", "*.txt"])
+snapshot_download("Lightricks/LTX-Video-0.9.5",
+                  allow_patterns=["text_encoder/*", "tokenizer/*"])  # if you skipped the full repo
 EOF
 ```
 
 Setting `HF_TOKEN` (a free Hugging Face token) gives faster downloads. It isn't required.
 
-**Model licences.** The LTX-Video weights come with Lightricks' own licence (see the
+**Model licences.** FLUX.1-schnell and its autoencoder are Apache-2.0 (free for
+commercial use). The official `black-forest-labs/FLUX.1-schnell` repo needs a Hugging Face
+login, so `imagine` loads the same weights from the ungated copies listed above, with the
+model configs shipped in `img2vid/flux_config/`. The LTX-Video weights come with Lightricks' own licence (see the
 `*.license.txt` in the model repo). Read it before any commercial use.
 
 ### img2vid's own caches
@@ -223,7 +243,7 @@ Setting `HF_TOKEN` (a free Hugging Face token) gives faster downloads. It isn't 
 | `~/.cache/img2vid/people/` | person counts per image | yes |
 | `~/.cache/img2vid/clips/*.npz` | generated AI clips (frames), several hundred MB each at HQ | yes, but regenerating costs minutes per clip |
 | `~/.cache/img2vid/clips/*.lat.pt` | HQ latents waiting to be decoded (interrupted run) | keep them to resume; delete to start over |
-| `~/.cache/img2vid/clips/embeds/` | cached text-encoder outputs per prompt | yes |
+| `~/.cache/img2vid/clips/embeds/` | cached text-encoder outputs per prompt (`flux-*.pt` for `imagine`) | yes |
 
 A clip's cache key includes the image bytes, prompt, size, frame count and seed. Changing
 any of them makes a new clip, and re-running with the same values reuses the cached one.
@@ -332,6 +352,41 @@ Each scene's `motion_prompt` drives its clip. Prompts work best with one concret
 for example *"The father kneels down and hugs his little daughter tightly. Sea waves roll
 gently. Slow camera push in."*
 
+### `imagine`: make high-quality images from text (FLUX.1-schnell)
+
+```bash
+img2vid imagine "PROMPT" ["PROMPT" ...] [-f prompts.txt] [-o images/ | -o one.png]
+    [--aspect 1:1|16:9|9:16|4:3|3:4|3:2|2:3] [--size WxH] [--count N]
+    [--steps 4] [--quant q4|q5|q8] [--seed 0]
+```
+
+| Option | Default | Meaning |
+|---|---|---|
+| `PROMPT ...` / `-f` | | one image per prompt; `-f` reads one prompt per line (`#` lines skipped) |
+| `-o` | `images` | a `.png`/`.jpg` path for a single image, else a folder: `01.png`, `02.png`, … |
+| `--aspect` | `1:1` | ~1 megapixel at that shape (16:9 is 1344×768) |
+| `--size` | | exact size instead, rounded down to multiples of 16 (e.g. `1920x1088`; bigger is slower) |
+| `--count` | 1 | variations per prompt (different seeds) |
+| `--steps` | 4 | schnell is distilled for 1–4 steps; 4 is best |
+| `--quant` | `q4` | model file precision: `q5`/`q8` are slightly sharper, need more memory and download |
+| `--seed` | 0 | image *i* uses `seed + i`; change it to get a different picture of the same prompt |
+
+FLUX follows long, specific English prompts well and can **write short text** in an image
+(put the words in quotes). Describe subject, action, setting, style and light, e.g.
+`"A little girl in a yellow frock hugging her father on a beach at sunset, Pixar-style 3D
+animation, warm golden light, highly detailed"`.
+
+Make a set of pictures and turn them into a video:
+
+```bash
+img2vid imagine -f story.txt --aspect 16:9 -o story_images
+img2vid plan story_images --music song.mp3 --fit-music --sync-beats -o storyboard.json
+```
+
+To keep one character looking the same across pictures, describe them identically in every
+prompt (age, hair, clothes, colours) and keep the same `--seed`. FLUX has no memory between
+images, so expect some variation; regenerate the odd one out with another seed.
+
 ### `clips`: use videos you made elsewhere (online AI services, phone videos)
 
 ```bash
@@ -417,6 +472,9 @@ Top level:
 | `transition_duration` | `1.4` | seconds of overlap between scenes |
 | `fade_in`, `fade_out` | `0.6`, `1.0` | video fade at start and end, in seconds |
 | `beat_period` | `0.6966` | written by `--sync-beats` (seconds per beat), informational |
+| `beat_pulse` | `0.035` | dance "kick": zoom the frame in by this fraction on every beat, easing back |
+| `beat_pulse_period` | `0.4444` | seconds between kicks (needed with `beat_pulse`) |
+| `beat_offset` | `1.49` | time of the first kick, e.g. the first bar line |
 | `scenes` | `[...]` | list, in play order |
 
 Per scene:
@@ -454,6 +512,7 @@ Times are measured on an Apple M3 Pro with 18 GB of memory, for 16:9 clips:
 | `ai` (0.9.5) clip, 864×480, 97 frames, 30 steps | 3–6 min denoise + ~25 s decode |
 | `animate-hq` clip, 1600×896, 121 frames | ~4 min denoise + ~1.7 min decode |
 | T5 text-encoder load (once per run, only for new prompts) | 3–5 min |
+| `imagine`, one 1024×1024 or 1344×768 image, 4 steps, `q4` | ~85 s (+ ~1 min model load per run) |
 
 Memory safeguards built in:
 
@@ -488,6 +547,8 @@ With less than about 12 GB, use `--no-upscale`.
 | Tokenizer error mentioning protobuf | `pip install protobuf sentencepiece` (both are in `[motion]`) |
 | `MPS backend out of memory` while decoding | close other apps; lower `--res` or `--seconds`; latents are kept, so re-run the same command to retry only the decode |
 | `MPS backend out of memory` while denoising | lower `--res`/`--seconds`, or `--no-upscale` |
+| `imagine` runs out of memory | use `--quant q4` and a ~1 MP size; close other apps |
+| `imagine`: `install the motion extra and gguf` | `pip install -e '.[motion,image]'` |
 | A job is extremely slow | the machine slept, or it's swapping; check Activity Monitor → Memory → Swap Used and close other apps |
 | AI clip distorts a face | change that scene's `motion_prompt` to a smaller action, try `--seed 1`, or set `"animate": false` for 3D motion |
 | Words painted in an image get scrambled | set `"animate": false` for that scene |
@@ -500,7 +561,7 @@ With less than about 12 GB, use `--no-upscale`.
 
 ```
 img2vid/
-  cli.py          command line (plan, make, animate, animate-hq, clips, render)
+  cli.py          command line (plan, make, imagine, animate, animate-hq, clips, render)
   analyze.py      image loading, EXIF, faces, focus point
   storyboard.py   offline planner, validation, load/save
   director.py     Claude planner (structured JSON output)
@@ -509,6 +570,8 @@ img2vid/
   people.py       YOLOS person detection
   animate.py      LTX-Video 0.9.5 image-to-video
   animate_hq.py   LTX-Video 0.9.8 distilled + 2x upscaler, colour matching
+  imagine.py      FLUX.1-schnell text-to-image (4-bit GGUF, T5 in a subprocess)
+  flux_config/    FLUX transformer / VAE / scheduler configs (official repo is gated)
   render.py       frame renderer, text, transitions, ffmpeg muxing
 projects/pappa/   example music-video project (storyboard + prompt scripts)
 pyproject.toml    package definition and dependency extras
@@ -520,6 +583,8 @@ The `projects/pappa/` scripts are examples of driving the tool from Python:
 - `online_prompts.py` makes `online_clips/` (numbered images + `PROMPTS.md`) for online services.
 - `youtube/make_short.py` builds a 9:16 YouTube Short (`youtube/short.json`) from chosen
   scenes of the main storyboard, with Hindi captions and the first 52 s of the song.
+- `projects/brush_brush_karo/flux_prompts.py` makes the characters and scenes with `imagine`;
+  `dance.py` builds a beat-synced dance edit (a cut on every bar plus `beat_pulse` kicks).
 
 ---
 
@@ -529,7 +594,7 @@ If you are an AI coding assistant (Claude Code, Cursor, Copilot, Codex, Gemini C
 operating this tool for a user:
 
 - **Use the CLI.** Don't reimplement the pipeline. The flow is
-  `plan → (edit JSON) → animate-hq / clips → render`. `storyboard.json` is the contract;
+  `(imagine →) plan → (edit JSON) → animate-hq / clips → render`. `storyboard.json` is the contract;
   edit it with a JSON library and keep scene order and field names exactly as documented
   above. Run `img2vid <cmd> --help` for the current options rather than relying on memory.
 - **Long jobs:** `animate`, `animate-hq` and full `render` runs take minutes to hours. Run

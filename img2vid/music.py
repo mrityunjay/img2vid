@@ -39,15 +39,28 @@ def beat_grid(path: str, beats_per_bar: int = 4) -> tuple[float, np.ndarray, flo
     ok = (bpm >= 60) & (bpm <= 180)
     lag = int(lags[ok][np.argmax(ac[1:][ok])])
 
-    # Phase: offset whose beat positions collect the most onset energy; bars start on
-    # the beat (of beats_per_bar candidates) where onsets are strongest.
-    beats_per = [env[o::lag].sum() for o in range(lag)]
-    phase = int(np.argmax(beats_per))
-    bar_lag = lag * beats_per_bar
-    bar_phase = max(range(phase, phase + bar_lag, lag), key=lambda o: env[o % bar_lag::bar_lag].sum())
+    # The whole-frame lag is up to half a frame off, which over a 3-minute song drifts the
+    # grid by a second or more. Refine to a fractional period (and its phase) whose beat
+    # positions collect the most onset energy.
+    def score(p, ph):
+        idx = np.round(np.arange(ph, len(env), p)).astype(int)
+        return env[idx[idx < len(env)]].mean()
+
+    best = (-np.inf, float(lag), 0.0)
+    for p in np.arange(lag - 1.5, lag + 1.5, 0.01):
+        for ph in np.arange(0.0, p, 0.5):
+            s = score(p, ph)
+            if s > best[0]:
+                best = (s, p, ph)
+    _, period, phase = best
+
+    # Bars start on the beat (of beats_per_bar candidates) where onsets are strongest.
+    bar_p = period * beats_per_bar
+    bar_phase = max((phase + k * period for k in range(beats_per_bar)),
+                    key=lambda o: score(bar_p, o % bar_p))
     length = len(x) / _SR
-    bars = np.arange(bar_phase % bar_lag, len(env), bar_lag) / fps
-    return lag / fps, bars, length
+    bars = np.arange(bar_phase % bar_p, len(env), bar_p) / fps
+    return period / fps, bars, length
 
 
 def snap_to_bars(storyboard: dict, music: str, min_bars: int = 2) -> None:
